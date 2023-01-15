@@ -1,0 +1,699 @@
+{
+    "objects" : {
+        "simple mass-spring objects" : {
+            "note" : "These very basic general-purpose objects are commonly used as hammers, plectra, lips, bows, etc...",
+            "mlys" : {
+                "mlys.harmonic-oscillator" : {
+                    "title" : "One-Mass - Mono-directional (Harmonic Oscillator)",
+                    "note" : "",
+                    "description" : "A simple and inexpensive mass and spring model that can serve as lips, among other things. The harmonic oscillator models a mass attached to a spring of a given stiffness, fixed at one end. The frequency of resonance of the object is given by the formula 1/(2 pi) sqrt(stiffness / mass).",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_mass_one_mono.html"
+                },
+                "mlys.mono-two-mass" : {
+                    "title" : "Two-Mass - Mono-directional",
+                    "note" : "",
+                    "description" : "A simple mono-directional two-mass model that can serve as a hammer, plectrum, finger, etc. Generally the two-mass model has a small mass and a large mass; the small one will be \"connected\" to the object being excited, and the large one will be manipulated by the user. This is similar to the bi-two-mass, except that it only vibrates in the trans0 direction. It is therefore more computationally efficient for single-direction interactions like plucking and striking objects.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_mass_two_mono.html"
+                },
+                "mlys.bi-two-mass" : {
+                    "title" : "Two-Mass - Bi-directional",
+                    "note" : "",
+                    "description" : "A simple bi-directional two-mass model that can serve as a hammer, plectrum, finger, etc. Generally the two-mass model has a small mass and a large mass; the small one will be \"connected\" to the object being excited, and the large one will be manipulated by the user. The two masses are connected by a spring. Visualize a large coin on a table, with a small coin on top, and a spring between them. The large coin can be moved in two directions ('trans0 and 'trans1), and the spring will cause the small coin to follow.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_mass_two_bi.html"
+                }
+            },
+            "unimplemented" : {
+            }
+        },
+        "strings and rods" : {
+            "note" : "",
+            "mlys" : {
+                "mlys.mono-string" : {
+                    "title" : "String (or Rod) - Mono-directional",
+                    "note" : "",
+                    "description" : "Any string or rod, fixed at its endpoints, that vibrates in one transverse (side-to-side) direction.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_string_mono.html"
+                },
+                "mlys-bi-string" : {
+                    "title" : "String (or Rod) - Bi-directional",
+                    "note" : "",
+                    "description" : "Any string or rod, fixed at its endpoints, that vibrates in two transverse directions (side-to-side, up-and-down). This is generally used for bowed interactions.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_string_bi.html"
+                }
+            },
+            "unimplemented" : {
+            }
+        },
+        "tubes (air columns)" : {
+            "note" : "",
+            "mlys" : {
+                "mlys.open-open-tube" : {
+                    "title" : "Tube - open/open",
+                    "note" : "",
+                    "description" : "A model of a column of air in an acoustic tube (either cylindrical or conical) which is open at both ends.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_tube_open_open.html"
+                },
+                "mlys.closed-open-tube" : {
+                    "title" : "Tube - closed/open",
+                    "note" : "",
+                    "description" : "A model of a column of air in an acoustic tube (either cylindrical or conical) which is sealed at one end and open at the other.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_tube_closed_open.html"
+                },
+                "mlys.closed-closed-tube" : {
+                    "title" : "Tube - closed/closed",
+                    "note" : "",
+                    "description" : "A model of a column of air in an acoustic tube (either cylindrical or conical) which is sealed at both ends.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_tube_closed_closed.html"
+                }
+            },
+            "unimplemented" : {
+            }
+        },
+        "membranes" : {
+            "note" : "",
+            "mlys" : {
+                "mlys.rect-membrane" : {
+                    "title" : "Rectangular Membrane - Fixed",
+                    "note" : "",
+                    "description" : "A rectangular membrane with a thickness of zero, fixed at the edges.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_membrane_rect_fixed.html"
+                },
+                "mlys.circ-membrane" : {
+                    "title" : "Circular Membrane - Fixed",
+                    "note" : "",
+                    "description" : "A circular membrane with zero thickness, fixed at its edged like a drum head.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_membrane_circ_fixed.html"
+                }
+            },
+            "unimplemented" : {
+            }
+        },
+        "plates" : {
+            "note" : "",
+            "mlys" : {
+                "mlys.rect-plate" : {
+                    "title" : "Rectangular Plate - Fixed",
+                    "note" : "",
+                    "description" : "A rectangular plate fixed at its edges.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_plate_rect_fixed.html"
+                },
+                "mlys.clamped-circ-plate" : {
+                    "title" : "Circular Plate - Clamped",
+                    "note" : "",
+                    "description" : "A circular plate fixed at its edges.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_plate_circ_fixed.html"
+                },
+                "mlys.free-circ-plate" : {
+                    "title" : "Circular Plate - Free",
+                    "note" : "",
+                    "description" : "A circular plate unattached at its edges.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_plate_circ_free.html"
+                }
+            },
+            "unimplemented" : {
+            }
+        },
+        "bars (wooden)" : {
+            "note" : "",
+            "mlys" :{
+            },
+            "unimplemented" : {
+                "'rect-free-bar" : {
+                    "title" : "Rectangular Free Bar",
+                    "note" : "",
+                    "description" : "A model of a wooden rectangular bar unattached at its edges.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_bar_rect_free.html"
+                }
+            }
+        },
+        "string instrument bridge models": {
+            "note" : "",
+            "mlys" : {
+                "mlys.violin-bridge" : {
+                    "title" : "Violin Bridge",
+                    "note" : "",
+                    "description" : "A basic violin bridge model.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_bridge_violin.html"
+                },
+                "mlys.cello-bridge" : {
+                    "title" : "Cello Bridge",
+                    "note" : "",
+                    "description" : "A basic cello bridge model.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_bridge_cello.html"
+                }
+            },
+            "unimplemented" : {
+            }
+        },
+        "nonlinear models" : {
+            "note" : "These are special objects that integrate nonlinear waveguide models into the Modalys environment. They may use different physical parameters to describe them.",
+            "mlys" : {
+                "mlys.jet" : {
+                    "title" : "Jet Object",
+                    "note" : "",
+                    "description" : "Simulates a wind jet created by a flue in a fipple. It can be used with the 'labium connection to create an oscillating air vortex that excites an air column in a tube to produce a recorder/flute model.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_jet.html"
+                }
+            },
+            "unimplemented" : {
+            }
+        },
+        "other objects" : {
+            "note" : "These objects are not created using physical properties, but can be used as objects in the Modalys environment.",
+            "mlys" : {
+                "mlys.single-point" : {
+                    "title" : "Single Point Object",
+                    "note" : "",
+                    "description" : "A Modalys object without physical properties which can nonetheless be represented in space and can vibrate in one dimension.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_point_single.html"
+                }
+            },
+            "unimplemented" : {
+                "'multiple-points" : {
+                    "title" : "Multiple Points Object",
+                    "note" : "",
+                    "description" : "A Modalys object without physical properties which can nonetheless be represented in space and can vibrate in one dimension.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_point_multiple.html"
+                },
+                "'radiator" : {
+                    "title" : "Radiator Object",
+                    "note" : "",
+                    "description" : "The radiator object simulates the impedance loss resulting from the emission of a sound wave out of a pulsating spherical cap.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_radiator.html"
+                },
+                "'clone" : {
+                    "title" : "Clone Object",
+                    "note" : "",
+                    "description" : "Creates a copy of an object which shares that object's modal data. Clones provide a good way to save memory in situations where several objects are needed with identical physical characteristics. (They also save the time it takes to compute extra copies of the same modal data, which can be considerable if objects with many modes are involved.)",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_clone.html"
+                }
+            }
+        },
+        "external data objects and fIle I/O" : {
+            "note" : "Object data can additionally be read from a data file created in Modalys or externally.",
+            "mlys" : {
+                "mlys.read-from-file" : {
+                    "title" : "Read Modal Object",
+                    "note" : "",
+                    "description" : "Creates an object from modal data stored in a file. This could be using modal data saved with the Modalys (save-object ...) function, or to retrieve a modal data file produced by some other source, such as an analysis or another program.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_file_read.html"
+                }
+            },
+            "unimplemented" : {
+                "piano-soundboard.dat / piano-soundboard2.dat" : {
+                    "title" : "Piano Soundboard",
+                    "note" : "provided as a data file",
+                    "description" : "The piano-soundboard object is based on measurements of a real piano made by Philippe Derogis for his PhD thesis at IRCAM. The geometrical characteristics of a piano soundboard include: the mesh of the soundboard itself (13 x 13 points) / trimming rims (creating nodal lines) / bridges",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_soundboard_piano.html"
+                },
+                "'reson-model" : {
+                    "title" : "Resonance Model Object",
+                    "note" : "this might seems to be a bit buggy",
+                    "description" : "Returns a 'single-point object whose modes frequencies, loss coefficients and amplitude vector are set to the values of a model of resonance defined in a plain text file.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_point_modres.html"
+                }
+            }
+        },
+        "finite element object" : {
+            "note" : "Modal objects can also be calculated from a user-defined 3-dimensional mesh.",
+            "mlys" : {
+            },
+            "unimplemented" : {
+                "'finite-element" : {
+                    "title" : "Finite Element",
+                    "note" : "a dedicated section to creating finite element objects is forthcoming",
+                    "description" : "This function is used to create a finite element object whose sound properties depend on the user-defined geometry (mesh), material parameters (density, young's modulus , poisson ration, loss parameters) and boundary conditions (the fixed part of the mesh). The dynamic behavior of this object is defined using modal theory. The number of modes generated can be specified by the user. Finite Element objects will be discussed in their own (forthcoming) section in this new Modalys documentation. For the moment, please refer to the existing Finite element .pdf documentation from 2003.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectReference/object_finite_element.html"
+                }
+            }
+        },
+        "hybrid Objects" : {
+            "note" : "",
+            "mlys" : {
+                "mlys.melt-hybrid" : {
+                    "title" : "Melt-Hybrid Object",
+                    "note" : "useful for making efficient glissandi!",
+                    "description" : "Creates a hybrid of two different objects. One can think of this hybrid, as its name implies, as one object that melts into another. With it, one can make a string turn into a membrane, or have a tube tuned to 220Hz turn into a tube tuned to 440Hz. In both cases the result is like a glissando, as opposed to mix-hybrid which does not change the objects themselves, but rather the energy that is transmitted to the two components of the hybrid.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectHybrids/object_hybrid_melt.html"
+                },
+                "mlys.mix-hybrid" : {
+                    "title" : "Mix-Hybrid Object",
+                    "note" : "",
+                    "description" : "Creates a hybrid of two different objects. One can think of this hybrid more like a box with the two objects inside; in fact, it's sort of like a sound mix of the two objects, except that when exciting the hybrid, energy is transmitted to the sub-objects in proportion to the current position of the hybrid. When using a 'mix-hybrid with two objects of different pitches, one always hears the both distinct pitches (as opposed to the melt-hybrid, where you hear one varying pitch).",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectHybrids/object_hybrid_mix.html"
+                },
+                "mlys.tri-hybrid" : {
+                    "title" : "Tri-Hybrid Object",
+                    "note" : "a mix-hybrid between three objects",
+                    "description" : "Creates a tri-hybrid, which is essentially a mix-hybrid of three different objects. When exciting a tri-hybrid, energy is transmitted to the sub-objects in proportion to the values of the 2-dimensional controller. As with the mix-hybrid, when using a 'tri-hybrid with objects of three different pitches, one always hears the three distinct pitches.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Objects/ObjectHybrids/object_hybrid_tri.html"
+                }
+            },
+            "unimplemented" : {
+            }
+        }
+    },
+    "connections" : {
+        "basic unilateral connections" : {
+            "note" : "These connections only affect one access/object.",
+            "mlys" : {
+                "mlys.force" : {
+                    "title" : "Force Connection",
+                    "note" : "",
+                    "description" : "Applies force to an access.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_force.html"
+                },
+                "mlys.speed" : {
+                    "title" : "Speed Connection",
+                    "note" : "",
+                    "description" : "Specifies (sets) the speed of an access over time.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_speed.html"
+                },
+                "mlys.position" : {
+                    "title" : "Position Connection",
+                    "note" : "",
+                    "description" : "Sets the position of an access.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_position.html"
+                },
+                "mlys.hole" : {
+                    "title" : "Acoustic Hole Connection",
+                    "note" : "",
+                    "description" : "Makes a tone hole of variable diameter along an acoustic tube. This function has been deprecated (see details below).",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_hole.html"
+                },
+                "mlys.strike" : {
+                    "title" : "Strike Connection",
+                    "note" : "this connection has a unilateral option",
+                    "description" : "A connection where one access strikes another.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_strike.html"
+                }
+            },
+            "unimplemented" : {
+
+            }
+        },
+        "bilateral connections" : {
+            "note" : "These connections take two accesses/objects to perform simple interactions",
+            "mlys" : {
+                "mlys.adhere" : {
+                    "title" : "Adhere Connection",
+                    "note" : "",
+                    "description" : "Adheres two accesses together, so they have the same speed.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_adhere.html"
+                },
+                "mlys.strike" : {
+                    "title" : "Strike Connection",
+                    "note" : "this connection has a unilateral option",
+                    "description" : "A connection where one access strikes another.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_strike.html"
+                },
+                "mlys.pluck" : {
+                    "title" : "Pluck Connection",
+                    "note" : "",
+                    "description" : "A connection where one access plucks another.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_pluck.html"
+                },
+                "mlys.spring" : {
+                    "title" : "Spring Connection",
+                    "note" : "",
+                    "description" : "This connection allows the energy from one object to be transferred to another via a spring which acts as a harmonic oscillator.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_spring.html"
+                },
+                "mlys.reed" : {
+                    "title" : "Reed Connection",
+                    "note" : "",
+                    "description" : "Makes a reed-tube interaction.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_reed.html"
+                },
+                "mlys.felt" : {
+                    "title" : "Felt Hammer Connection",
+                    "note" : "",
+                    "description" : "Interaction of a felt hammer against an object. It is very convenient in order to soften the excessively brutal attacks inherent in the strike connection. It fully models the hysteresis (the lag time of the effect of the interaction in relation to its cause), just as real felt behaves, and is based on Stulov's model.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_felt.html"
+                },
+                "mlys.mono-fingerboard" : {
+                    "title" : "Mono-Fingerboard Connection",
+                    "note" : "",
+                    "description" : "Simulates the interaction between a finger and a string with a fingerboard underneath them (mono-directional version).",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_fingerboard_mono.html"
+                },
+                "mlys.normalised-valve" : {
+                    "title" : "Normalised Valve Connection",
+                    "note" : "",
+                    "description" : "This connection simulates the behavior of a reed or valve. The normalised valve connection has fewer arguments than the valve connection. This is made possible because there is a reference force, that of the complete block of the reed on the mouthpiece, to which one can normalise all force.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_valve_normalised.html"
+                },
+                "mlys.valve" : {
+                    "title" : "",
+                    "note" : "this connection has a bilateral option",
+                    "description" : "This connection simulates the behavior of a valve. It can be used as well to imitate vibrating lips. Note that you can make it with one or two accesses, plus one for the object playing the role of the tube.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_valve.html"
+                }
+            },
+            "unimplemented" : {
+                "'normalised-leaky-valve" : {
+                    "title" : "Normalised Leaky Valve Connection",
+                    "note" : "",
+                    "description" : "This connection simulates the behavior of a reed or valve. The normalised leaky valve connection has fewer arguments than the leaky valve connection. This is made possible because there is a reference force, that of the complete block of the reed on the mouthpiece, to which one can normalize all force.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_valve_leaky_normalised.html"
+                },
+                "'leaky-valve" : {
+                    "title" : "Leaky Valve Connection",
+                    "note" : "this connection has a bilateral option",
+                    "description" : "This connection simulates the behavior of a valve. It can be used as well to imitate vibrating lips. Note that you can make it with one or two accesses, plus one for the object playing the role of the tube. It is slightly different from the standard valve connection.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_valve_leaky.html"
+                },
+                "'induction" : {
+                    "title" : "Induction Connection",
+                    "note" : "",
+                    "description" : "This connection simulates the interaction between an electromagnet and an object. The electromagnet is surrounded by a magnetic field, the polarity of which is determined by a signal (represented by a controller). Objects close enough the fall are affected by it. Note that unlike in the real world, both the electromagnet and the resonating object can be of any material, ferromagnetic or otherwise.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_induction.html"
+                }
+            }
+        },
+        "complex connections" : {
+            "note" : "These connections take multiple accesses/objects to perform complex interactions",
+            "mlys" : {
+                "mlys.bow" : {
+                    "title" : "Bow Connection",
+                    "note" : "",
+                    "description" : "Two-dimensional bowed connection between four accesses.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_bow.html"
+                },
+                "mlys.valve" : {
+                    "title" : "",
+                    "note" : "this connection has a bilateral option",
+                    "description" : "This connection simulates the behavior of a valve. It can be used as well to imitate vibrating lips. Note that you can make it with one or two accesses, plus one for the object playing the role of the tube.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_valve.html"
+                },
+                "mlys.labium" : {
+                    "title" : "Labium Connection",
+                    "note" : "",
+                    "description" : "This connection simulates the action of a jet against a labium in a fipple, creating an air vortex. (Seriously, those are the correct terms, not typos!!)",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_labium.html"
+                }
+            },
+            "unimplemented" : {
+                "'bi-fingerboard" : {
+                    "title" : "Bi-Fingerboard Connection",
+                    "note" : "",
+                    "description" : "Simulates the interaction between and finger and a string with a fingerboard underneath them (bidirectional version).",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_fingerboard_bi.html"
+                },
+                "'leaky-valve" : {
+                    "title" : "Leaky Valve Connection",
+                    "note" : "this connection has a bilateral option",
+                    "description" : "This connection simulates the behavior of a valve. It can be used as well to imitate vibrating lips. Note that you can make it with one or two accesses, plus one for the object playing the role of the tube. It is slightly different from the standard valve connection.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_valve_leaky.html"
+                }
+            }
+        }
+    },
+    "controllers" : {
+        "basic controllers" : {
+            "note" : "The following are the most basic and commonly used controllers.",
+            "mlys" : {
+            },
+            "unimplemented" : {
+                "'constant" : {
+                    "title" : "Constant Controller",
+                    "note" : "",
+                    "description" : "This is a controller which outputs a constant, i.e. unchanging, value.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_constant.html"
+                },
+                "'envelope" : {
+                    "title" : "Envelope Controller",
+                    "note" : "",
+                    "description" : "A break-point envelope controller.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_envelope.html"
+                }
+            }
+        },
+        "Modalys environment controllers" : {
+            "note" : "The following controllers get information from an access, interaction or other point from the Modalys synthesis environment.",
+            "mlys" : {
+                "mlys.access-speed" : {
+                    "title" : "Access Speed Controller",
+                    "note" : "",
+                    "description" : "This is a controller which outputs the speed of vibration of a given access.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_access_speed.html"
+                },
+                "mlys.access-position" : {
+                    "title" : "Access Position Controller",
+                    "note" : "",
+                    "description" : "This is a controller which outputs the position of a given access.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_access_position.html"
+                },
+                "mlys.access-force" : {
+                    "title" : "Access Force Controller",
+                    "note" : "",
+                    "description" : "This is a controller which outputs the interaction force of a connection at an access.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_access_force.html"
+                }
+            },
+            "unimplemented" : {
+                "'connection-state" : {
+                    "title" : "Connection State Controller",
+                    "note" : "",
+                    "description" : "This is a controller which outputs the active/inactive state of a connection.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_connection_state.html"
+                },
+                "'last-sample" : {
+                    "title" : "Last Sample Controller",
+                    "note" : "appears to be broken - does not cause errors, but outputs zero",
+                    "description" : "A controller that always returns the last sample output by the system. (currently appears to be broken)",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_sample_last.html"
+                }
+            }
+        },
+        "controllers from files" : {
+            "note" : "",
+            "mlys" : {
+            },
+            "unimplemented" : {
+                "'sound-file" : {
+                    "title" : "Sound File Controller",
+                    "note" : "",
+                    "description" : "Outputs the the signal read from a sound file (or portion of a sound file) as a controller, optionally changing its sampling rate.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_file_sound.html"
+                },
+                "'midi-file" : {
+                    "title" : "MIDI File Controller",
+                    "note" : "",
+                    "description" : "Imports a Standard (Type 0) MIDI File, parses its data, and outputs a controller from a list of specified data types.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_file_midi.html"
+                }
+            }
+        },
+        "run-time and real-time controllers" : {
+            "note" : "",
+            "mlys" : {
+                "mlys.dynamic" : {
+                    "title" : "Dynamic Controller",
+                    "note" : "",
+                    "description" : "A controller whose value can be dynamically changed. In Modalys for Max environment, the value can be changed using messages (sent to modalys~). In Lisp, it can be changed between (run) statements at the whim of the user (or a foreign-call controller!), using (send-message ... ) or (set-breakpoint ... ) to create a ramp to a given value over a certain amount of time.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_dynamic.html"
+                },
+                "mlys.signal" : {
+                    "title" : "Signal Controller",
+                    "note" : "",
+                    "description" : "A controller derived from real-time signal input.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_signal.html"
+                }
+            },
+            "unimplemented" : {
+            }
+        },
+        "math and programming controllers" : {
+            "note" : "",
+            "mlys" : {
+                "mlys.lua" : {
+                    "title" : "Lua Controller (mlys.lua)",
+                    "note" : "",
+                    "description" : "mlys.lua, available in Modalys for Max environment only, is a controller that lets you write pieces of Lua script for static instrument construction (including 3D finite elements) or also real time control. Lua scripts are compiled on-the-fly with C language execution speed. The aim of mlys.lua is to provide as much flexibility as ModaLisp within Max' real time environment. This section is still under construction and will be improved over time. Many examples can be found in the Modalys for Max package.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_lua.html"
+                },
+                "mlys.expression" : {
+                    "title" : "Expression Controller",
+                    "note" : "",
+                    "description" : "Controller whose output combines one or more input controllers using a simple C-language-like expression provided as a string.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_expression.html"
+                },
+                "mlys.scale" : {
+                    "title" : "Scale Controller",
+                    "note" : "",
+                    "description" : "This is a controller which takes a controller as input and scales it from one range to another.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_scale.html"
+                },
+                "mlys.arithmetic" : {
+                    "title" : "Arithmetic Controller",
+                    "note" : "",
+                    "description" : "Controller whose output combines two or more input controllers using one of the four basic arithmetic operations (+, -, *, /). Dimension of the input controllers is limited to 1.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_arithmetic.html"
+                }
+            },
+            "unimplemented" : {
+                "'foreign-call" : {
+                    "title" : "Foreign-Call Controller",
+                    "note" : "only available in the Lisp interface to Modalys",
+                    "description" : "Allows any Lisp (or Scheme) program to be used as a controller. To take advantage of this function, you should have some knowledge of the Lisp (or Scheme) programming language. The fact that it can replicate Scheme programs is for backwards-compatibility, since old versions of Modalys used a Scheme interface instead of a Lisp interface. Generally, we suggest that you use the Expression Controller when and where possible, not only because it is light-years faster, but also because the foreign-call controller is only available in the Lisp interface to Modalys.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_foreign_call.html"
+                }
+            }
+        },
+        "signal generator controllers" : {
+            "note" : "",
+            "mlys" : {
+                "mlys.sine" : {
+                    "title" : "Sine Controller",
+                    "note" : "",
+                    "description" : "Outputs a sine-wave in each dimension.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_sine.html"
+                }
+            },
+            "unimplemented" : {
+                "'random" : {
+                    "title" : "Random Controller",
+                    "note" : "i.e. White Noise Controller",
+                    "description" : "Outputs one or more equally distributed random sequences (white noise). The output values range from -1 to 1.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_noise_random.html"
+                },
+                "'bandlimited-noise" : {
+                    "title" : "Band-Limited Noise Controller",
+                    "note" : "",
+                    "description" : "Outputs bandlimited noise produced by oversampling a noise generator. The output values range from -1 to 1.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_noise_bandlimited.html"
+                },
+                "'noise" : {
+                    "title" : "Noise (Band-Limited Impulse) Controller",
+                    "note" : "i.e. Band-Limited Impulse Controller",
+                    "description" : "Outputs a random series of band-limited impulses. The cutoff, random delay time range and output value range can all be dynamically controlled using other controllers.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_noise_noise.html"
+                }
+            }
+        },
+        "delay and filtering controllers" : {
+            "note" : "",
+            "mlys" : {
+            },
+            "unimplemented" : {
+                "'delay" : {
+                    "title" : "Delay Controller",
+                    "note" : "",
+                    "description" : "A controller whose output is that of an input controller delayed in time.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_delay.html"
+                },
+                "'bilinear-filter" : {
+                    "title" : "Bilinear (First Order IIR) Filter",
+                    "note" : "First Order IIR Filter",
+                    "description" : "Filters its inputs by a first order IIR filter controlled by a set of three coefficients",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_filter_bilinear.html"
+                },
+                "'biquadratic-filter" : {
+                    "title" : "Biquadratic (Second Order IIR) Filter",
+                    "note" : "Second Order IIR FIlter",
+                    "description" : "Filters its inputs by a second order IIR filter controlled by a set of five coefficients",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_filter_biquadratic.html"
+                },
+                "'constant-second-order-filter" : {
+                    "title" : "Constant Second Order (Bandpass) Filter",
+                    "note" : "appears to be broken..",
+                    "description" : "Filters its inputs by a second order IIR filter with a constant center frequency, amplitude and bandwidth. It currently seems to be broken.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_filter_bp_constant.html"
+                },
+                "'variable-second-order-filter" : {
+                    "title" : "Variable Second Order (Bandpass) Filter",
+                    "note" : "",
+                    "description" : "Filters its inputs by a second order IIR filter with a variable center frequency and bandwidth.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_filter_bp_variable.html"
+                }
+            }
+        },
+        "managing multi-dimensional controllers" : {
+            "note" : "",
+            "mlys" : {
+                "mlys.spread" : {
+                    "title" : "Spread Controller",
+                    "note" : "",
+                    "description" : "Outputs in all dimensions the value received by a one dimensional channel input controller.                    ",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_dimension_spread.html"
+                }
+            },
+            "unimplemented" : {
+                "'dimension-mapping" : {
+                    "title" : "Dimension-Mapping Controller",
+                    "note" : "",
+                    "description" : "Create a (one- or multi-dimensional) controller by mapping dimensions to it from the dimensions of other controller(s)",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_dimension_map.html"
+                },
+                "'sum" : {
+                    "title" : "Sum Controller",
+                    "note" : "",
+                    "description" : "Outputs a one-dimensional controller which sums up the dimensions of its input controller.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Controllers/controller_dimension_sum.html"
+                }
+            }
+        },
+        "uncategorized" : {
+            "note" : "",
+            "mlys" : {
+                "mlys.phasor" : {
+                    "title" : "",
+                    "note" : "",
+                    "description" : "",
+                    "url" : ""
+                }
+            },
+            "unimplemented" : {
+            }
+        }
+    },
+    "workspace" : {
+        "sound related commands" : {
+            "note" : "The following are commands relating to sound generation, input and output",
+            "mlys" : {
+                "mlys.point-output" : {
+                    "title" : "Point Output",
+                    "note" : "",
+                    "description" : "Creates an audio output from the speed of an access or directly from the value of a controller.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Workspace/workspace_point_output.html"
+                },
+                "mlys.point-input" : {
+                    "title" : "Point Input",
+                    "note" : "",
+                    "description" : "Creates an audio input to be used with a signal controller.",
+                    "url" : "https://support.ircam.fr/docs/Modalys/current/Workspace/workspace_point_input.html"
+                }
+            },
+            "unimplemented" : {
+            }
+        }
+    },
+    "uncategorized" : {
+        "uncategorized" : {
+            "note" : "",
+            "mlys" : {
+                "mlys.collector" : {
+                    "title" : "",
+                    "note" : "",
+                    "description" : "",
+                    "url" : ""
+                },
+                "mlys.script" : {
+                    "title" : "",
+                    "note" : "",
+                    "description" : "",
+                    "url" : ""
+                },
+                "modalys~" : {
+                    "title" : "",
+                    "note" : "",
+                    "description" : "",
+                    "url" : ""
+                }
+            },
+            "unimplemented" : {
+            }
+        }
+    }
+}
