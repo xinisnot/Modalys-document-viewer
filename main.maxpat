@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 401.0, 119.0, 836.0, 873.0 ],
+		"rect" : [ 401.0, 119.0, 562.0, 873.0 ],
 		"openrect" : [ 0.0, 0.0, 562.0, 873.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -40,6 +40,30 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 455.0, 938.0, 89.0, 22.0 ],
+					"text" : "loadmess clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 354.0, 357.0, 89.0, 22.0 ],
+					"text" : "loadmess clear"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-1",
 					"linecount" : 3,
@@ -209,7 +233,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 266.750000000000057, 1374.0, 152.0, 60.0 ],
+					"patching_rect" : [ 266.750000000000057, 1374.0, 157.0, 60.0 ],
 					"text" : "Outputs in all dimensions the value received by a one dimensional channel input controller.                    "
 				}
 
@@ -280,7 +304,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 274.333333333333371, 384.0, 100.0, 100.0 ],
+					"patching_rect" : [ 274.333333333333371, 408.0, 100.0, 100.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 131.0, 0.0, 249.0, 366.0 ]
 				}
@@ -452,7 +476,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 290.333333333333371, 492.0, 42.0, 22.0 ],
+					"patching_rect" : [ 290.333333333333371, 516.0, 42.0, 22.0 ],
 					"text" : "get $1"
 				}
 
@@ -978,6 +1002,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"midpoints" : [ 363.5, 393.0, 283.833333333333371, 393.0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
 					"source" : [ "obj-202", 1 ]
 				}
@@ -1087,7 +1119,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-235", 0 ],
-					"midpoints" : [ 299.833333333333371, 524.0, 388.333333333333371, 524.0, 388.333333333333371, 311.0, 164.833333333333371, 311.0 ],
+					"midpoints" : [ 299.833333333333371, 547.0, 388.333333333333371, 547.0, 388.333333333333371, 311.0, 164.833333333333371, 311.0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -1155,6 +1187,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
 					"source" : [ "obj-283", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"midpoints" : [ 464.5, 967.5, 412.25, 967.5 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
