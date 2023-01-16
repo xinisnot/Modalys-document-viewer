@@ -344,7 +344,7 @@
                     "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_valve_normalised.html"
                 },
                 "mlys.valve" : {
-                    "title" : "",
+                    "title" : "Valve Connection",
                     "note" : "this connection has a bilateral option",
                     "description" : "This connection simulates the behavior of a valve. It can be used as well to imitate vibrating lips. Note that you can make it with one or two accesses, plus one for the object playing the role of the tube.",
                     "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_valve.html"
@@ -381,7 +381,7 @@
                     "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_bow.html"
                 },
                 "mlys.valve" : {
-                    "title" : "",
+                    "title" : "Valve Connection",
                     "note" : "this connection has a bilateral option",
                     "description" : "This connection simulates the behavior of a valve. It can be used as well to imitate vibrating lips. Note that you can make it with one or two accesses, plus one for the object playing the role of the tube.",
                     "url" : "https://support.ircam.fr/docs/Modalys/current/Connections/connection_valve.html"
