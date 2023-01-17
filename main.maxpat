@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 886.0, 101.0, 570.0, 620.0 ],
+		"rect" : [ 939.0, 106.0, 570.0, 620.0 ],
 		"openrect" : [ 0.0, 0.0, 570.0, 620.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -27,7 +27,7 @@
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 15,
+		"toolbars_unpinned_last_save" : 13,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -50,7 +50,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 411.75, 1314.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 513.0, 600.0, 57.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 577.0, 570.0, 43.0 ],
 					"rounded" : 10.0,
 					"text" : "more...",
 					"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
@@ -138,6 +138,7 @@
 					"border" : 1.0,
 					"bordercolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"id" : "obj-4",
+					"linecount" : 4,
 					"maxclass" : "textedit",
 					"nosymquotes" : 1,
 					"numinlets" : 1,
@@ -146,9 +147,11 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 143.583333333333371, 746.0, 100.0, 50.0 ],
 					"presentation" : 1,
+					"presentation_linecount" : 2,
 					"presentation_rect" : [ 382.0, 0.0, 188.0, 102.0 ],
 					"readonly" : 1,
 					"rounded" : 0.0,
+					"text" : "These connections only affect one access/object.",
 					"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 				}
 
@@ -159,6 +162,7 @@
 					"border" : 1.0,
 					"bordercolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"id" : "obj-16",
+					"linecount" : 8,
 					"maxclass" : "textedit",
 					"nosymquotes" : 1,
 					"numinlets" : 1,
@@ -167,9 +171,11 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 259.750000000000057, 1484.0, 100.0, 50.0 ],
 					"presentation" : 1,
+					"presentation_linecount" : 2,
 					"presentation_rect" : [ 0.0, 438.0, 570.0, 182.0 ],
 					"readonly" : 1,
 					"rounded" : 0.0,
+					"text" : "Makes a tone hole of variable diameter along an acoustic tube. This function has been deprecated (see details below).",
 					"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 				}
 
@@ -214,6 +220,7 @@
 					"bordercolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"fontsize" : 18.0,
 					"id" : "obj-7",
+					"linecount" : 2,
 					"maxclass" : "textedit",
 					"nosymquotes" : 1,
 					"numinlets" : 1,
@@ -225,6 +232,7 @@
 					"presentation_rect" : [ 0.0, 368.0, 570.0, 24.0 ],
 					"readonly" : 1,
 					"rounded" : 0.0,
+					"text" : "Acoustic Hole Connection",
 					"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 				}
 
@@ -387,7 +395,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-31",
-					"items" : "<empty>",
+					"items" : [ "mlys.force", ",", "mlys.speed", ",", "mlys.position", ",", "mlys.hole", ",", "mlys.strike" ],
 					"maxclass" : "chooser",
 					"numinlets" : 1,
 					"numoutlets" : 6,
@@ -418,7 +426,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-24",
-					"items" : "<empty>",
+					"items" : [ "basic", "unilateral", "connections", ",", "bilateral", "connections", ",", "complex", "connections" ],
 					"maxclass" : "chooser",
 					"numinlets" : 1,
 					"numoutlets" : 6,
