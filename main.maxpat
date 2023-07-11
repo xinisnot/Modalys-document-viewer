@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 87.0, 893.0, 319.0 ],
+		"rect" : [ 59.0, 87.0, 676.0, 271.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -61,7 +61,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 225.833333333333343, 756.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 334.999999999999943, 263.0, 547.0, 43.0 ],
+					"presentation_rect" : [ 334.999999999999943, 218.0, 330.000000000000057, 43.0 ],
 					"rounded" : 10.0,
 					"text" : "more...",
 					"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
@@ -112,21 +112,21 @@
 					"bgcolor" : [ 0.819607843137255, 0.819607843137255, 0.819607843137255, 1.0 ],
 					"border" : 1.0,
 					"bordercolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
-					"fontsize" : 18.0,
+					"fontsize" : 16.0,
 					"id" : "obj-18",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "textedit",
 					"nosymquotes" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 191.666666666666657, 687.0, 100.0, 50.0 ],
+					"patching_rect" : [ 191.666666666666657, 687.0, 104.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 334.999999999999943, 10.0, 547.0, 24.0 ],
+					"presentation_rect" : [ 334.999999999999943, 10.0, 330.000000000000057, 24.0 ],
 					"readonly" : 1,
 					"rounded" : 0.0,
-					"text" : "(make-object 'bi-two-mass)",
+					"text" : "(make-object 'harmonic-oscillator)",
 					"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 				}
 
@@ -241,7 +241,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 167.666666666666657, 316.0, 237.000000000000171, 108.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 112.0, 10.0, 220.999999999999943, 296.0 ]
+					"presentation_rect" : [ 112.0, 10.0, 220.999999999999943, 251.0 ]
 				}
 
 			}
@@ -361,7 +361,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 433.666666666666742, 316.0, 237.000000000000171, 108.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 10.0, 100.0, 296.0 ]
+					"presentation_rect" : [ 10.0, 10.0, 100.0, 251.0 ]
 				}
 
 			}
@@ -389,7 +389,7 @@
 					"border" : 1.0,
 					"bordercolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"id" : "obj-24",
-					"linecount" : 34,
+					"linecount" : 19,
 					"maxclass" : "textedit",
 					"nosymquotes" : 1,
 					"numinlets" : 1,
@@ -398,11 +398,11 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 144.833333333333343, 602.0, 100.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 6,
-					"presentation_rect" : [ 334.999999999999943, 36.0, 547.0, 270.0 ],
+					"presentation_linecount" : 5,
+					"presentation_rect" : [ 334.999999999999943, 36.0, 330.000000000000057, 225.0 ],
 					"readonly" : 1,
 					"rounded" : 0.0,
-					"text" : "A simple bi-directional two-mass model that can serve as a hammer, plectrum, finger, etc. Generally the two-mass model has a small mass and a large mass; the small one will be \"connected\" to the object being excited, and the large one will be manipulated by the user. The two masses are connected by a spring. Visualize a large coin on a table, with a small coin on top, and a spring between them. The large coin can be moved in two directions ('trans0 and 'trans1), and the spring will cause the small coin to follow.",
+					"text" : "A simple and inexpensive mass and spring model that can serve as lips, among other things. The harmonic oscillator models a mass attached to a spring of a given stiffness, fixed at one end. The frequency of resonance of the object is given by the formula 1/(2 pi) sqrt(stiffness / mass).",
 					"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 				}
 
