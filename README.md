@@ -4,4 +4,4 @@ IRCAM's Modalys is a very attractive tool. However, the documentation does not s
 
 This patch allows you to see the title and description of the selected `mlys` object on the official documentation. If you want to see more details, you can access the official documentation by pressing the "more..." button (this will launch your browser).
 
-![image](https://user-images.githubusercontent.com/69862767/212578416-6be96b50-4c24-4c1c-9e96-443d3ce82a40.png)
+![](https://github.com/xinisnot/Modalys-document-viewer/assets/69862767/fde516a8-3c01-4949-bcc9-a8028fb11169)
