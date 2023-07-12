@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 87.0, 676.0, 271.0 ],
+		"rect" : [ 59.0, 87.0, 675.0, 271.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -136,8 +136,8 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 120.5, 509.0, 169.0, 22.0 ],
-					"text" : "route description modalysp url"
+					"patching_rect" : [ 120.5, 509.0, 165.0, 22.0 ],
+					"text" : "route description modalisp url"
 				}
 
 			}
@@ -231,7 +231,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-7",
-					"items" : "<empty>",
+					"items" : [ "mlys.rect-membrane.mxo", ",", "mlys.closed-closed-tube.mxo", ",", "mlys.melt-hybrid.mxo", ",", "mlys.cello-bridge.mxo", ",", "mlys.open-open-tube.mxo", ",", "mlys.clamped-circ-plate.mxo", ",", "mlys.circ-membrane.mxo", ",", "mlys.tri-hybrid.mxo", ",", "mlys.single-point.mxo", ",", "mlys.jet.mxo", ",", "mlys.bi-two-mass.mxo", ",", "mlys.mono-two-mass.mxo", ",", "mlys.free-circ-plate.mxo", ",", "mlys.mix-hybrid.mxo", ",", "mlys.mono-string.mxo", ",", "mlys.rect-plate.mxo", ",", "mlys.violin-bridge.mxo", ",", "mlys.bi-string.mxo", ",", "mlys.closed-open-tube.mxo", ",", "mlys.read-from-file.mxo", ",", "mlys.harmonic-oscillator.mxo" ],
 					"maxclass" : "chooser",
 					"numinlets" : 1,
 					"numoutlets" : 6,
@@ -387,6 +387,7 @@
 					"border" : 1.0,
 					"bordercolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"id" : "obj-24",
+					"linecount" : 7,
 					"maxclass" : "textedit",
 					"nosymquotes" : 1,
 					"numinlets" : 1,
@@ -395,9 +396,11 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 120.5, 575.0, 100.0, 50.0 ],
 					"presentation" : 1,
+					"presentation_linecount" : 2,
 					"presentation_rect" : [ 334.999999999999943, 36.0, 330.000000000000057, 225.0 ],
 					"readonly" : 1,
 					"rounded" : 0.0,
+					"text" : "A model of a column of air in an acoustic tube (either cylindrical or conical) which is sealed at both ends.",
 					"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 				}
 
