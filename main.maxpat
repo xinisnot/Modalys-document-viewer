@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 466.0, 87.0, 451.0, 728.0 ],
+		"rect" : [ 613.0, 262.0, 451.0, 539.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 485.5, 713.0, 100.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 597.0, 441.999999999999943, 100.0 ]
+					"presentation_rect" : [ 5.0, 434.0, 441.999999999999943, 100.0 ]
 				}
 
 			}
@@ -128,7 +128,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-53",
-					"items" : [ "@a-distance", ",", "@b-distance", ",", "@central-mass", ",", "@const-loss", ",", "@e-distance", ",", "@feet-mass", ",", "@freq-loss", ",", "@h-distance", ",", "@name", ",", "@stiffness", ",", "@access-in-initial-position", ",", "@access-out-initial-position" ],
+					"items" : [ "@angle-mode", ",", "@multi", ",", "@precision" ],
 					"maxclass" : "chooser",
 					"numinlets" : 1,
 					"numoutlets" : 6,
@@ -136,7 +136,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 657.333333333333258, 773.762376457452774, 237.000000000000171, 108.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 226.999999999999943, 5.0, 220.0, 562.0 ]
+					"presentation_rect" : [ 5.0, 269.0, 441.999999999999943, 163.0 ]
 				}
 
 			}
@@ -268,7 +268,6 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.08 ],
 					"id" : "obj-34",
 					"maxclass" : "textbutton",
@@ -278,7 +277,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 947.0, 612.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 337.000000000000057, 699.0, 109.999999999999943, 24.0 ],
+					"presentation_rect" : [ 337.0, 243.0, 109.999999999999943, 24.0 ],
 					"rounded" : 10.0,
 					"text" : "help",
 					"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
@@ -373,6 +372,7 @@
 			}
 , 			{
 				"box" : 				{
+					"active" : 0,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.08 ],
 					"id" : "obj-19",
 					"maxclass" : "textbutton",
@@ -382,7 +382,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 270.0, 777.237623989582062, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.000000000000114, 699.0, 109.999999999999943, 24.0 ],
+					"presentation_rect" : [ 225.000000000000057, 243.0, 109.999999999999943, 24.0 ],
 					"rounded" : 10.0,
 					"text" : "doc",
 					"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
@@ -436,7 +436,6 @@
 					"fontface" : 1,
 					"fontsize" : 18.0,
 					"id" : "obj-18",
-					"linecount" : 4,
 					"maxclass" : "textedit",
 					"nosymquotes" : 1,
 					"numinlets" : 1,
@@ -445,12 +444,10 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 120.5, 621.0, 101.0, 65.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 569.0, 441.999999999999943, 26.0 ],
+					"presentation_rect" : [ 5.0, 215.0, 441.999999999999943, 26.0 ],
 					"readonly" : 1,
 					"rounded" : 0.0,
-					"text" : "(make-object 'violin-bridge)",
-					"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"textjustification" : 0
+					"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 				}
 
 			}
@@ -556,7 +553,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-7",
-					"items" : [ "mlys.rect-membrane.mxo", ",", "mlys.closed-closed-tube.mxo", ",", "mlys.melt-hybrid.mxo", ",", "mlys.cello-bridge.mxo", ",", "mlys.open-open-tube.mxo", ",", "mlys.clamped-circ-plate.mxo", ",", "mlys.circ-membrane.mxo", ",", "mlys.tri-hybrid.mxo", ",", "mlys.single-point.mxo", ",", "mlys.jet.mxo", ",", "mlys.bi-two-mass.mxo", ",", "mlys.mono-two-mass.mxo", ",", "mlys.free-circ-plate.mxo", ",", "mlys.mix-hybrid.mxo", ",", "mlys.mono-string.mxo", ",", "mlys.rect-plate.mxo", ",", "mlys.violin-bridge.mxo", ",", "mlys.bi-string.mxo", ",", "mlys.closed-open-tube.mxo", ",", "mlys.read-from-file.mxo", ",", "mlys.harmonic-oscillator.mxo" ],
+					"items" : [ "mlys.collector.mxo", ",", "mlys.script.mxo", ",", "modalys~.mxo" ],
 					"maxclass" : "chooser",
 					"numinlets" : 1,
 					"numoutlets" : 6,
@@ -564,7 +561,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 143.333333333333314, 291.0, 237.000000000000171, 108.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 117.0, 219.999999999999943, 450.0 ]
+					"presentation_rect" : [ 98.999999999999943, 5.0, 348.0, 208.0 ]
 				}
 
 			}
@@ -684,7 +681,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 409.333333333333371, 291.0, 237.000000000000171, 108.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 5.0, 219.999999999999943, 110.0 ]
+					"presentation_rect" : [ 5.0, 5.0, 91.999999999999943, 208.0 ]
 				}
 
 			}
