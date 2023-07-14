@@ -1,0 +1,363 @@
+﻿object,attribute,paramter,type
+mlys.rect-membrane.mxo,@name,,symbol
+mlys.rect-membrane.mxo,@modes,modes,number
+mlys.rect-membrane.mxo,@pitch,,number
+mlys.rect-membrane.mxo,@pitch-parameter,,"enum {size, tension, mass}"
+mlys.rect-membrane.mxo,@const-loss,const-loss,number
+mlys.rect-membrane.mxo,@freq-loss,freq-loss,number
+mlys.rect-membrane.mxo,@length0,length0,number
+mlys.rect-membrane.mxo,@length1,length1,number
+mlys.rect-membrane.mxo,@tension,tension,number
+mlys.rect-membrane.mxo,@surface-density,surface-density,number
+mlys.rect-membrane.mxo,@access-in-initial-position-x,,"numbers (same as number of inlets, ie arg1)"
+mlys.rect-membrane.mxo,@access-in-initial-position-y,,"numbers (same as number of inlets, ie arg1)"
+mlys.rect-membrane.mxo,@access-out-initial-position-x,,"numbers (same as number of outlets, ie arg2)"
+mlys.rect-membrane.mxo,@access-out-initial-position-y,,"numbers (same as number of outlets, ie arg2)"
+mlys.closed-closed-tube.mxo,@name,,symbol
+mlys.closed-closed-tube.mxo,@modes,modes,number
+mlys.closed-closed-tube.mxo,@pitch,,number
+mlys.closed-closed-tube.mxo,@pitch-parameter,,enum {length}
+mlys.closed-closed-tube.mxo,@const-loss,const-loss,number
+mlys.closed-closed-tube.mxo,@freq-loss,freq-loss,number
+mlys.closed-closed-tube.mxo,@length,length,number
+mlys.closed-closed-tube.mxo,@radius0,radius0,number
+mlys.closed-closed-tube.mxo,@radius1,radius1,number
+mlys.closed-closed-tube.mxo,@air-elasticity,air-elasticity,number
+mlys.closed-closed-tube.mxo,@air-density,air-density,number
+mlys.closed-closed-tube.mxo,@access-in-initial-position,,"numbers (same as number of inlets, ie arg1)"
+mlys.closed-closed-tube.mxo,@access-out-initial-position,,"numbers (same as number of outlets, ie arg2)"
+mlys.melt-hybrid.mxo,@name,,symbol
+mlys.melt-hybrid.mxo,@position,controller,number
+mlys.cello-bridge.mxo,@a-distance,a-distance,number
+mlys.cello-bridge.mxo,@const-loss,const-loss,number
+mlys.cello-bridge.mxo,@d-distance,d-distance,number
+mlys.cello-bridge.mxo,@d2-stiffness,d2-stiffness,number
+mlys.cello-bridge.mxo,@d20-distance,d20-distance,number
+mlys.cello-bridge.mxo,@freq-loss,freq-loss,number
+mlys.cello-bridge.mxo,@h1-distance,h1-distance,number
+mlys.cello-bridge.mxo,@i20-distance,i20-distance,number
+mlys.cello-bridge.mxo,@m1-mass,m1-mass,number
+mlys.cello-bridge.mxo,@m12-mass,m12-mass,number
+mlys.cello-bridge.mxo,@m2-mass,m2-mass,number
+mlys.cello-bridge.mxo,@name,,symbol
+mlys.cello-bridge.mxo,@s1-sitffness,s1-stiffness,number
+mlys.cello-bridge.mxo,@access-in-initial-position,,"numbers (same as number of inlets, ie arg1)"
+mlys.cello-bridge.mxo,@access-out-initial-position,,"numbers (same as number of outlets, ie arg2)"
+mlys.open-open-tube.mxo,@name,,symbol
+mlys.open-open-tube.mxo,@modes,modes,number
+mlys.open-open-tube.mxo,@pitch,,number
+mlys.open-open-tube.mxo,@pitch-parameter,,enum {length}
+mlys.open-open-tube.mxo,@const-loss,const-loss,number
+mlys.open-open-tube.mxo,@freq-loss,freq-loss,number
+mlys.open-open-tube.mxo,@length,length,number
+mlys.open-open-tube.mxo,@radius0,radius0,number
+mlys.open-open-tube.mxo,@radius1,radius1,number
+mlys.open-open-tube.mxo,@air-elasticity,air-elasticity,number
+mlys.open-open-tube.mxo,@air-density,air-density,number
+mlys.open-open-tube.mxo,@access-in-initial-position,,"numbers (same as number of inlets, ie arg1)"
+mlys.open-open-tube.mxo,@access-out-initial-position,,"numbers (same as number of outlets, ie arg2)"
+mlys.clamped-circ-plate.mxo,@name,,symbol
+mlys.clamped-circ-plate.mxo,@modes,modes,number
+mlys.clamped-circ-plate.mxo,@pitch,,number
+mlys.clamped-circ-plate.mxo,@pitch-parameter,,"enum {radius, thickness, density, young}"
+mlys.clamped-circ-plate.mxo,@const-loss,const-loss,number
+mlys.clamped-circ-plate.mxo,@freq-loss,freq-loss,number
+mlys.clamped-circ-plate.mxo,@radius,radius,number
+mlys.clamped-circ-plate.mxo,@thickness,thickness,number
+mlys.clamped-circ-plate.mxo,@density,density,number
+mlys.clamped-circ-plate.mxo,@young,young,number number (mantissa exponent)
+mlys.clamped-circ-plate.mxo,@poisson,poisson,number
+mlys.clamped-circ-plate.mxo,@access-in-initial-position-r,,"numbers (same as number of inlets, ie arg1)"
+mlys.clamped-circ-plate.mxo,@access-in-initial-position-theta,,"numbers (same as number of inlets, ie arg1)"
+mlys.clamped-circ-plate.mxo,@access-out-initial-position-r,,"numbers (same as number of outlets, ie arg2)"
+mlys.clamped-circ-plate.mxo,@access-out-initial-position-theta,,"numbers (same as number of outlets, ie arg2)"
+mlys.circ-membrane.mxo,@name,,symbol
+mlys.circ-membrane.mxo,@modes,modes,number
+mlys.circ-membrane.mxo,@pitch,,number
+mlys.circ-membrane.mxo,@pitch-parameter,,"enum {radius, tension, mass}"
+mlys.circ-membrane.mxo,@const-loss,const-loss,number
+mlys.circ-membrane.mxo,@freq-loss,freq-loss,number
+mlys.circ-membrane.mxo,@radius,radius,number
+mlys.circ-membrane.mxo,@tension,tension,number
+mlys.circ-membrane.mxo,@surface-density,surface-density,number
+mlys.circ-membrane.mxo,@access-in-initial-position-r,,"numbers (same as number of inlets, ie arg1)"
+mlys.circ-membrane.mxo,@access-in-initial-position-theta,,"numbers (same as number of inlets, ie arg1)"
+mlys.circ-membrane.mxo,@access-out-initial-position-r,,"numbers (same as number of outlets, ie arg2)"
+mlys.circ-membrane.mxo,@access-out-initial-position-theta,,"numbers (same as number of outlets, ie arg2)"
+mlys.tri-hybrid.mxo,@name,,symbol
+mlys.tri-hybrid.mxo,@position,2D-controller,number
+mlys.single-point.mxo,@name,,symbol
+mlys.single-point.mxo,@modes,modes,number
+mlys.single-point.mxo,@freq,freqs,numbers
+mlys.single-point.mxo,@ampl,amps,numbers
+mlys.single-point.mxo,@loss,bws,numbers
+mlys.single-point.mxo,@access-in-initial-position,,"numbers (same as number of inlets, ie arg1)"
+mlys.single-point.mxo,@access-out-initial-position,,"numbers (same as number of outlets, ie arg2)"
+mlys.jet.mxo,@air-pressure,pressure,number
+mlys.jet.mxo,@density,air-density,number
+mlys.jet.mxo,@flue-labium-distance,flue-labium-distance,number
+mlys.jet.mxo,@height,height,number
+mlys.jet.mxo,@labium-position,labium-position,number
+mlys.jet.mxo,@length,length,number
+mlys.jet.mxo,@mouth-surface,mouth-surface,number
+mlys.jet.mxo,@name,,symbol
+mlys.jet.mxo,@sound-celerity,air-speed / celerity,number
+mlys.jet.mxo,@width,width,number
+mlys.bi-two-mass.mxo,@name,,symbol
+mlys.bi-two-mass.mxo,@pitch,,number
+mlys.bi-two-mass.mxo,@pitch-parameter,,"enum {stiffness0, stiffness1, small-mass0, small-mass1, large-mass0, large-mass1}"
+mlys.bi-two-mass.mxo,@const-loss0,const-loss0,number
+mlys.bi-two-mass.mxo,@const-loss1,const-loss1,number
+mlys.bi-two-mass.mxo,@freq-loss0,freq-loss0,number
+mlys.bi-two-mass.mxo,@freq-loss1,freq-loss1,number
+mlys.bi-two-mass.mxo,@large-mass,large-mass,number
+mlys.bi-two-mass.mxo,@small-mass,small-mass,number
+mlys.bi-two-mass.mxo,@stiffness0,stiffness0,number
+mlys.bi-two-mass.mxo,@stiffness1,stiffness1,number
+mlys.bi-two-mass.mxo,@access-in-initial-position,,"numbers (same as number of inlets, ie arg1)"
+mlys.bi-two-mass.mxo,@access-in-type,,"enums {trans0, trans1} (same as number of inlets, ie arg1)"
+mlys.bi-two-mass.mxo,@access-out-initial-position,,"numbers (same as number of outlets, ie arg2)"
+mlys.bi-two-mass.mxo,@access-out-type,,"enums {trans0, trans1} (same as number of outlets, ie arg2)"
+mlys.mono-two-mass.mxo,@name,,symbol
+mlys.mono-two-mass.mxo,@pitch,,number
+mlys.mono-two-mass.mxo,@pitch-parameter,,enum
+mlys.mono-two-mass.mxo,@const-loss0,const-loss0,number
+mlys.mono-two-mass.mxo,@freq-loss0,freq-loss0,number
+mlys.mono-two-mass.mxo,@large-mass,large-mass,number
+mlys.mono-two-mass.mxo,@small-mass,small-mass,number
+mlys.mono-two-mass.mxo,@stiffness0,stiffness0,number
+mlys.mono-two-mass.mxo,@access-in-initial-position,,"numbers (same as number of inlets, ie arg1)"
+mlys.mono-two-mass.mxo,@access-out-initial-position,,"numbers (same as number of outlets, ie arg2)"
+mlys.free-circ-plate.mxo,@name,,symbol
+mlys.free-circ-plate.mxo,@modes,modes,number
+mlys.free-circ-plate.mxo,@pitch,,number
+mlys.free-circ-plate.mxo,@pitch-parameter,,"enum {radius, thickness, density, young}"
+mlys.free-circ-plate.mxo,@const-loss,const-loss,number
+mlys.free-circ-plate.mxo,@freq-loss,freq-loss,number
+mlys.free-circ-plate.mxo,@radius,radius,number
+mlys.free-circ-plate.mxo,@thickness,thickness,number
+mlys.free-circ-plate.mxo,@density,density,number
+mlys.free-circ-plate.mxo,@young,young,number number (mantissa exponent)
+mlys.free-circ-plate.mxo,@poisson,poisson,number
+mlys.free-circ-plate.mxo,@access-in-initial-position-r,,"numbers (same as number of inlets, ie arg1)"
+mlys.free-circ-plate.mxo,@access-in-initial-position-theta,,"numbers (same as number of inlets, ie arg1)"
+mlys.free-circ-plate.mxo,@access-out-initial-position-r,,"numbers (same as number of outlets, ie arg2)"
+mlys.free-circ-plate.mxo,@access-out-initial-position-theta,,"numbers (same as number of outlets, ie arg2)"
+mlys.mix-hybrid.mxo,@name,,symbol
+mlys.mix-hybrid.mxo,@position,controller,number
+mlys.mono-string.mxo,@name,,symbol
+mlys.mono-string.mxo,@modes,modes,number
+mlys.mono-string.mxo,@pitch,,number
+mlys.mono-string.mxo,@pitch-parameter,,"enum {length, tension, density, young}"
+mlys.mono-string.mxo,@const-loss,const-loss,number
+mlys.mono-string.mxo,@freq-loss,freq-loss,number
+mlys.mono-string.mxo,@length,length,number
+mlys.mono-string.mxo,@radius,radius,number
+mlys.mono-string.mxo,@tension,tension,number
+mlys.mono-string.mxo,@density,density,number
+mlys.mono-string.mxo,@young,young,number number (mantissa exponent)
+mlys.mono-string.mxo,@access-in-initial-position,,"numbers (same as number of inlets, ie arg1)"
+mlys.mono-string.mxo,@access-out-initial-position,,"numbers (same as number of outlets, ie arg2)"
+mlys.rect-plate.mxo,@name,,symbol
+mlys.rect-plate.mxo,@modes,modes,number
+mlys.rect-plate.mxo,@pitch,,number
+mlys.rect-plate.mxo,@pitch-parameter,,"enum {size, thickness, density, young}"
+mlys.rect-plate.mxo,@const-loss,const-loss,number
+mlys.rect-plate.mxo,@freq-loss,freq-loss,number
+mlys.rect-plate.mxo,@length0,length0,number
+mlys.rect-plate.mxo,@length1,length1,number
+mlys.rect-plate.mxo,@thickness,thickness,number
+mlys.rect-plate.mxo,@density,density,number
+mlys.rect-plate.mxo,@young,young,number number (mantissa exponent)
+mlys.rect-plate.mxo,@poisson,poisson,number
+mlys.rect-plate.mxo,@access-in-initial-position-x,,"numbers (same as number of inlets, ie arg1)"
+mlys.rect-plate.mxo,@access-in-initial-position-y,,"numbers (same as number of inlets, ie arg1)"
+mlys.rect-plate.mxo,@access-out-initial-position-x,,"numbers (same as number of outlets, ie arg2)"
+mlys.rect-plate.mxo,@access-out-initial-position-y,,"numbers (same as number of outlets, ie arg2)"
+mlys.violin-bridge.mxo,@a-distance,a-distance,number
+mlys.violin-bridge.mxo,@b-distance,b-distance,number
+mlys.violin-bridge.mxo,@central-mass,central-mass,number
+mlys.violin-bridge.mxo,@const-loss,const-loss,number
+mlys.violin-bridge.mxo,@e-distance,e-distance,number
+mlys.violin-bridge.mxo,@feet-mass,feet-mass,number
+mlys.violin-bridge.mxo,@freq-loss,freq-loss,number
+mlys.violin-bridge.mxo,@h-distance,h-distance,number
+mlys.violin-bridge.mxo,@name,,symbol
+mlys.violin-bridge.mxo,@stiffness,stiffness,number
+mlys.violin-bridge.mxo,@access-in-initial-position,,"numbers (same as number of inlets, ie arg1)"
+mlys.violin-bridge.mxo,@access-out-initial-position,,"numbers (same as number of outlets, ie arg2)"
+mlys.bi-string.mxo,@name,,symbol
+mlys.bi-string.mxo,@modes,modes,number
+mlys.bi-string.mxo,@pitch,,number
+mlys.bi-string.mxo,@pitch-parameter,,"enum {length, tension, density, young}"
+mlys.bi-string.mxo,@const-loss,const-loss,number
+mlys.bi-string.mxo,@freq-loss,freq-loss,number
+mlys.bi-string.mxo,@length,length,number
+mlys.bi-string.mxo,@radius,radius,number
+mlys.bi-string.mxo,@tension,tension,number
+mlys.bi-string.mxo,@density,density,number
+mlys.bi-string.mxo,@young,young,number number (mantissa exponent)
+mlys.bi-string.mxo,@access-in-initial-position,,"numbers (same as number of inlets, ie arg1)"
+mlys.bi-string.mxo,@access-in-type,,"enums {trans0, trans1} (same as number of inlets, ie arg1)"
+mlys.bi-string.mxo,@access-out-initial-position,,"numbers (same as number of outlets, ie arg2)"
+mlys.bi-string.mxo,@access-out-type,,"enums {trans0, trans1} (same as number of outlets, ie arg2)"
+mlys.closed-open-tube.mxo,@name,,symbol
+mlys.closed-open-tube.mxo,@modes,modes,number
+mlys.closed-open-tube.mxo,@pitch,,number
+mlys.closed-open-tube.mxo,@pitch-parameter,,enum {length}
+mlys.closed-open-tube.mxo,@const-loss,const-loss,number
+mlys.closed-open-tube.mxo,@freq-loss,freq-loss,number
+mlys.closed-open-tube.mxo,@length,length,number
+mlys.closed-open-tube.mxo,@radius0,radius0,number
+mlys.closed-open-tube.mxo,@radius1,radius1,number
+mlys.closed-open-tube.mxo,@air-elasticity,air-elasticity,number
+mlys.closed-open-tube.mxo,@air-density,air-density,number
+mlys.closed-open-tube.mxo,@access-in-initial-position,,"numbers (same as number of inlets, ie arg1)"
+mlys.closed-open-tube.mxo,@access-out-initial-position,,"numbers (same as number of outlets, ie arg2)"
+mlys.read-from-file.mxo,@access-in-initial-position-1,,"numbers (same as number of inlets, ie arg1)"
+mlys.read-from-file.mxo,@access-in-initial-position-2,,"numbers (same as number of inlets, ie arg1)"
+mlys.read-from-file.mxo,@access-in-initial-position-3,,"numbers (same as number of inlets, ie arg1)"
+mlys.read-from-file.mxo,@access-in-type,,"enums {automatic} (same as number of inlets, ie arg1)"
+mlys.read-from-file.mxo,@access-num-dimentions,,number
+mlys.read-from-file.mxo,@access-out-initial-position-1,,"numbers (same as number of outlets, ie arg2)"
+mlys.read-from-file.mxo,@access-out-initial-position-2,,"numbers (same as number of outlets, ie arg2)"
+mlys.read-from-file.mxo,@access-out-initial-position-3,,"numbers (same as number of outlets, ie arg2)"
+mlys.read-from-file.mxo,@access-out-type,,"enums {automatic} (same as number of outlets, ie arg2)"
+mlys.read-from-file.mxo,@filename,file_name,symbol
+mlys.read-from-file.mxo,@name,,symbol
+mlys.harmonic-oscillator.mxo,@name,,symbol
+mlys.harmonic-oscillator.mxo,@pitch,,number
+mlys.harmonic-oscillator.mxo,@pitch-parameter,,"enum {stiffness, mass}"
+mlys.harmonic-oscillator.mxo,@const-loss,const-loss,number
+mlys.harmonic-oscillator.mxo,@freq-loss,freq-loss,number
+mlys.harmonic-oscillator.mxo,@mass,mass,number
+mlys.harmonic-oscillator.mxo,@stiffness,stiffness,number
+mlys.harmonic-oscillator.mxo,@access-in-initial-position,,"numbers (same as number of inlets, ie arg1)"
+mlys.harmonic-oscillator.mxo,@access-out-initial-position,,"numbers (same as number of outlets, ie arg2)"
+mlys.point-input.mxo,@channel,channel,number
+mlys.point-input.mxo,@gain,scaler,number
+mlys.point-input.mxo,@name,,symbol
+mlys.point-output.mxo,@channel,channel,number
+mlys.point-output.mxo,@gain,scaler,number
+mlys.point-output.mxo,@modes-selection,mode_selection,
+mlys.point-output.mxo,@name,,symbol
+mlys.collector.mxo,@name,,symbol
+mlys.script.mxo,@angle-mode,,enum
+mlys.script.mxo,@multi,,number
+mlys.script.mxo,@precision,,enum
+modalys~.mxo,@precision,,
+mlys.signal.mxo,@name,,symbol
+mlys.signal.mxo,@target-attribute,,
+mlys.lua.mxo,@dimension,,number
+mlys.lua.mxo,@name,,symbol
+mlys.lua.mxo,@pathtofile,,symbol
+mlys.lua.mxo,@script,,
+mlys.lua.mxo,@target-attribute,,
+mlys.lua.mxo,@update,,number
+mlys.dynamic.mxo,@name,,symbol
+mlys.dynamic.mxo,@target-attribute,,
+mlys.dynamic.mxo,@value,,number
+mlys.arithmetic.mxo,@name,,symbol
+mlys.arithmetic.mxo,@target-attribute,,
+mlys.arithmetic.mxo,@operation,operator,"enum {+, -, *, /}"
+mlys.spread.mxo,@dimension,dimention,number
+mlys.spread.mxo,@name,,symbol
+mlys.spread.mxo,@target-attribute,,
+mlys.access-speed.mxo,@name,,symbol
+mlys.sine.mxo,@frequency,frequency,number
+mlys.sine.mxo,@name,,symbol
+mlys.sine.mxo,@phase,phase,number
+mlys.sine.mxo,@target-attribute,,
+mlys.access-force.mxo,@name,,symbol
+mlys.expression.mxo,@expression,expression_string,
+mlys.expression.mxo,@name,,symbol
+mlys.expression.mxo,@target-attribute,,
+mlys.expression.mxo,@update,period,number
+mlys.scale.mxo,@input-max,in_max,number
+mlys.scale.mxo,@input-min,in_min,number
+mlys.scale.mxo,@name,,symbol
+mlys.scale.mxo,@output-max,out_max,number
+mlys.scale.mxo,@output-min,out_min,number
+mlys.scale.mxo,@target-attribute,,
+mlys.access-position.mxo,@name,,symbol
+mlys.phasor.mxo,@frequency,,number
+mlys.phasor.mxo,@name,,symbol
+mlys.phasor.mxo,@target-attribute,,
+mlys.phasor.mxo,@phase,,number
+mlys.mono-fingerboard.mxo,@fingerboard-position,position_ctl,number
+mlys.mono-fingerboard.mxo,@initial-position-in,fgr_posV,number
+mlys.mono-fingerboard.mxo,@initial-position-out,str_posV,number
+mlys.mono-fingerboard.mxo,@name,,symbol
+mlys.mono-fingerboard.mxo,@weight,weight,number
+mlys.bow.mxo,@initial-position-in,bow-posV,number
+mlys.bow.mxo,@initial-position-out,str-posV,number
+mlys.bow.mxo,@name,,symbol
+mlys.bow.mxo,@rosin,4D-ctl,number number number number
+mlys.bow.mxo,@weight,weight,number
+mlys.valve.mxo,@air-density,air-density,number
+mlys.valve.mxo,@air-pressure,breath-pressure,number
+mlys.valve.mxo,@aperture-length,aperture-length,number
+mlys.valve.mxo,@front-angle,front-angle,number
+mlys.valve.mxo,@front-area,front-area,number
+mlys.valve.mxo,@initial-position-in,"acc_pos1, acc_pos2",number number
+mlys.valve.mxo,@name,,symbol
+mlys.valve.mxo,@under-area,under-area,number
+mlys.valve.mxo,@weight,weight,number
+mlys.spring.mxo,@const-loss,const-loss,number
+mlys.spring.mxo,@freq-loss,freq-loss,number
+mlys.spring.mxo,@name,,symbol
+mlys.spring.mxo,@stiffness,stiffness_ctl,number
+mlys.spring.mxo,@weight,weight,number
+mlys.adhere.mxo,@name,,symbol
+mlys.adhere.mxo,@weight,weight,number
+mlys.reed.mxo,@air-density,airDensity,number
+mlys.reed.mxo,@air-pressure,airPressure,number
+mlys.reed.mxo,@area,readArea,number
+mlys.reed.mxo,@initial-position-in,initialPosition,number
+mlys.reed.mxo,@length,apertureLength,number
+mlys.reed.mxo,@name,,symbol
+mlys.reed.mxo,@weight,weight,number
+mlys.strike.mxo,@initial-position-in,init_pos1,number
+mlys.strike.mxo,@initial-position-out,init_pos2,number
+mlys.strike.mxo,@name,,symbol
+mlys.strike.mxo,@weight,weight,number
+mlys.hole.mxo,@name,,symbol
+mlys.hole.mxo,@noise,noise_ctl,number
+mlys.hole.mxo,@radius,radius_ctl,number
+mlys.hole.mxo,@weight,weight,number
+mlys.position.mxo,@name,,symbol
+mlys.position.mxo,@position,position_controller,number
+mlys.position.mxo,@weight,weight,number
+mlys.force.mxo,@force,force_controller,number
+mlys.force.mxo,@name,,symbol
+mlys.force.mxo,@weight,weight,number
+mlys.labium.mxo,@name,,symbol
+mlys.labium.mxo,@noise,noise_ctl,number
+mlys.labium.mxo,@vortex-factor,vortex_factor,number number number
+mlys.labium.mxo,@vortex-transition-time,vortex_transition,number
+mlys.labium.mxo,@weight,weight,number
+mlys.pluck.mxo,@breaking-force,release_ctl,number
+mlys.pluck.mxo,@initial-position-in,init_pos1,number
+mlys.pluck.mxo,@initial-position-out,init_pos2,number
+mlys.pluck.mxo,@name,,symbol
+mlys.pluck.mxo,@weight,weight,number
+mlys.speed.mxo,@name,,symbol
+mlys.speed.mxo,@speed,speed_controller,number
+mlys.speed.mxo,@weight,weight,number
+mlys.normalised-valve.mxo,@air-density,airDensity,number
+mlys.normalised-valve.mxo,@aperture-length,apertureLength,number
+mlys.normalised-valve.mxo,@front-angle,frontAngle,number
+mlys.normalised-valve.mxo,@gamma,breath,number
+mlys.normalised-valve.mxo,@initial-position-in,initialPosition,number
+mlys.normalised-valve.mxo,@name,,symbol
+mlys.normalised-valve.mxo,@weight,weight,number
+mlys.normalised-valve.mxo,@zeta,zeta,number
+mlys.felt.mxo,@F0,F0,number number (mantissa exponent)
+mlys.felt.mxo,@alpha,alpha,number
+mlys.felt.mxo,@epsilon,epsilon,number
+mlys.felt.mxo,@initial-position-in,init-pos1,number
+mlys.felt.mxo,@initial-position-out,init-pos2,number
+mlys.felt.mxo,@name,,symbol
+mlys.felt.mxo,@tau,tau,number
+mlys.felt.mxo,@thickness,thickness,number
+mlys.felt.mxo,@weight,weight,number
