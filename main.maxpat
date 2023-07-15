@@ -4,13 +4,14 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 613.0, 262.0, 451.0, 539.0 ],
+		"rect" : [ 466.0, 87.0, 450.0, 653.0 ],
+		"openrect" : [ 0.0, 0.0, 450.0, 600.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,7 +47,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 485.5, 713.0, 100.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 434.0, 441.999999999999943, 100.0 ]
+					"presentation_rect" : [ 0.0, 426.0, 450.0, 145.0 ]
 				}
 
 			}
@@ -128,7 +129,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-53",
-					"items" : [ "@angle-mode", ",", "@multi", ",", "@precision" ],
+					"items" : [ "@channel", ",", "@gain", ",", "@modes-selection", ",", "@name" ],
 					"maxclass" : "chooser",
 					"numinlets" : 1,
 					"numoutlets" : 6,
@@ -136,7 +137,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 657.333333333333258, 773.762376457452774, 237.000000000000171, 108.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 269.0, 441.999999999999943, 163.0 ]
+					"presentation_rect" : [ 0.0, 244.0, 450.0, 180.0 ]
 				}
 
 			}
@@ -277,7 +278,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 947.0, 612.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 337.0, 243.0, 109.999999999999943, 24.0 ],
+					"presentation_rect" : [ 405.0, 212.0, 45.0, 30.0 ],
 					"rounded" : 10.0,
 					"text" : "help",
 					"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
@@ -372,7 +373,6 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.08 ],
 					"id" : "obj-19",
 					"maxclass" : "textbutton",
@@ -382,7 +382,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 270.0, 777.237623989582062, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 225.000000000000057, 243.0, 109.999999999999943, 24.0 ],
+					"presentation_rect" : [ 358.0, 212.0, 45.0, 30.0 ],
 					"rounded" : 10.0,
 					"text" : "doc",
 					"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
@@ -436,6 +436,7 @@
 					"fontface" : 1,
 					"fontsize" : 18.0,
 					"id" : "obj-18",
+					"linecount" : 2,
 					"maxclass" : "textedit",
 					"nosymquotes" : 1,
 					"numinlets" : 1,
@@ -444,9 +445,10 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 120.5, 621.0, 101.0, 65.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 215.0, 441.999999999999943, 26.0 ],
+					"presentation_rect" : [ 0.0, 212.0, 356.0, 30.0 ],
 					"readonly" : 1,
 					"rounded" : 0.0,
+					"text" : "(make-point-output)",
 					"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 				}
 
@@ -553,7 +555,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-7",
-					"items" : [ "mlys.collector.mxo", ",", "mlys.script.mxo", ",", "modalys~.mxo" ],
+					"items" : [ "mlys.point-input.mxo", ",", "mlys.point-output.mxo" ],
 					"maxclass" : "chooser",
 					"numinlets" : 1,
 					"numoutlets" : 6,
@@ -561,7 +563,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 143.333333333333314, 291.0, 237.000000000000171, 108.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 98.999999999999943, 5.0, 348.0, 208.0 ]
+					"presentation_rect" : [ 93.999999999999943, 0.0, 356.000000000000057, 210.0 ]
 				}
 
 			}
@@ -681,7 +683,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 409.333333333333371, 291.0, 237.000000000000171, 108.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 5.0, 91.999999999999943, 208.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 91.999999999999943, 210.0 ]
 				}
 
 			}
