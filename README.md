@@ -6,7 +6,6 @@ This patch is useful for the following tasks on mlys objects:
 
 - check Modalisp commands corresponding to mlys objects
 - check Modalisp parameters corresponding to attributes possessed by mlys objects
-- Access Modalys documentation and Max Help (if available)
+- access Modalys documentation and Max Help (if available)
 
-![](https://github.com/xinisnot/Modalys-document-viewer/assets/69862767/27f1f01f-4522-47ad-808e-4a1053e2c732)
-
+![](https://github.com/xinisnot/Modalys-document-viewer/assets/69862767/740922f9-4a65-4dbe-b404-979c6f42d74b)
