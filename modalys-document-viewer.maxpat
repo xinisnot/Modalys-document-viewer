@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 466.0, 87.0, 450.0, 653.0 ],
-		"openrect" : [ 0.0, 0.0, 450.0, 600.0 ],
+		"rect" : [ 466.0, 87.0, 450.0, 571.0 ],
+		"openrect" : [ 0.0, 0.0, 450.0, 571.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -27,7 +27,7 @@
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 15,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -129,7 +129,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-53",
-					"items" : [ "@channel", ",", "@gain", ",", "@modes-selection", ",", "@name" ],
+					"items" : "<empty>",
 					"maxclass" : "chooser",
 					"numinlets" : 1,
 					"numoutlets" : 6,
@@ -436,7 +436,6 @@
 					"fontface" : 1,
 					"fontsize" : 18.0,
 					"id" : "obj-18",
-					"linecount" : 2,
 					"maxclass" : "textedit",
 					"nosymquotes" : 1,
 					"numinlets" : 1,
@@ -448,7 +447,6 @@
 					"presentation_rect" : [ 0.0, 212.0, 356.0, 30.0 ],
 					"readonly" : 1,
 					"rounded" : 0.0,
-					"text" : "(make-point-output)",
 					"textcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 				}
 
@@ -555,7 +553,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-7",
-					"items" : [ "mlys.point-input.mxo", ",", "mlys.point-output.mxo" ],
+					"items" : "<empty>",
 					"maxclass" : "chooser",
 					"numinlets" : 1,
 					"numoutlets" : 6,
