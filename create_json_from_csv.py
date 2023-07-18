@@ -3,9 +3,8 @@ import json
 
 
 # create a dictionary of attributes in the following format
-# {mlys_name: {attr_name: {parameter:, type:}}}
 
-df_mlys_attr = pd.read_csv('mlys_attributes.csv').fillna('')
+df_mlys_attr = pd.read_csv('work/mlys_attributes.csv').fillna('')
 dict_attr    = {}
 
 for mlys in df_mlys_attr['object'].unique():
@@ -13,7 +12,7 @@ for mlys in df_mlys_attr['object'].unique():
     d_tmp    = {}
     
     for index, row in df_mlys.iterrows():
-        d_tmp[row[0]] = { 'parameter': row[1], 'type': row[2] }
+        d_tmp[row[0]] = { 'unit': row[1], 'description': row[2], 'parameter': row[3], 'type': row[4] }
     
     dict_attr[mlys] = d_tmp
 
@@ -32,5 +31,5 @@ for category in df_categories:
         
     dict_mlys[category] = d
 
-with open('mlys_object_list.json', mode='w') as f:
+with open('work/mlys_object_list.json', mode='w') as f:
     json.dump(dict_mlys, f)

@@ -1,363 +1,363 @@
-﻿object,attribute,paramter,type
-mlys.rect-membrane.mxo,@name,,symbol
-mlys.rect-membrane.mxo,@modes,modes,number
-mlys.rect-membrane.mxo,@pitch,,number
-mlys.rect-membrane.mxo,@pitch-parameter,,"enum {size, tension, mass}"
-mlys.rect-membrane.mxo,@const-loss,const-loss,number
-mlys.rect-membrane.mxo,@freq-loss,freq-loss,number
-mlys.rect-membrane.mxo,@length0,length0,number
-mlys.rect-membrane.mxo,@length1,length1,number
-mlys.rect-membrane.mxo,@tension,tension,number
-mlys.rect-membrane.mxo,@surface-density,surface-density,number
-mlys.rect-membrane.mxo,@access-in-initial-position-x,,"numbers (same as number of inlets, ie arg1)"
-mlys.rect-membrane.mxo,@access-in-initial-position-y,,"numbers (same as number of inlets, ie arg1)"
-mlys.rect-membrane.mxo,@access-out-initial-position-x,,"numbers (same as number of outlets, ie arg2)"
-mlys.rect-membrane.mxo,@access-out-initial-position-y,,"numbers (same as number of outlets, ie arg2)"
-mlys.closed-closed-tube.mxo,@name,,symbol
-mlys.closed-closed-tube.mxo,@modes,modes,number
-mlys.closed-closed-tube.mxo,@pitch,,number
-mlys.closed-closed-tube.mxo,@pitch-parameter,,enum {length}
-mlys.closed-closed-tube.mxo,@const-loss,const-loss,number
-mlys.closed-closed-tube.mxo,@freq-loss,freq-loss,number
-mlys.closed-closed-tube.mxo,@length,length,number
-mlys.closed-closed-tube.mxo,@radius0,radius0,number
-mlys.closed-closed-tube.mxo,@radius1,radius1,number
-mlys.closed-closed-tube.mxo,@air-elasticity,air-elasticity,number
-mlys.closed-closed-tube.mxo,@air-density,air-density,number
-mlys.closed-closed-tube.mxo,@access-in-initial-position,,"numbers (same as number of inlets, ie arg1)"
-mlys.closed-closed-tube.mxo,@access-out-initial-position,,"numbers (same as number of outlets, ie arg2)"
-mlys.melt-hybrid.mxo,@name,,symbol
-mlys.melt-hybrid.mxo,@position,controller,number
-mlys.cello-bridge.mxo,@a-distance,a-distance,number
-mlys.cello-bridge.mxo,@const-loss,const-loss,number
-mlys.cello-bridge.mxo,@d-distance,d-distance,number
-mlys.cello-bridge.mxo,@d2-stiffness,d2-stiffness,number
-mlys.cello-bridge.mxo,@d20-distance,d20-distance,number
-mlys.cello-bridge.mxo,@freq-loss,freq-loss,number
-mlys.cello-bridge.mxo,@h1-distance,h1-distance,number
-mlys.cello-bridge.mxo,@i20-distance,i20-distance,number
-mlys.cello-bridge.mxo,@m1-mass,m1-mass,number
-mlys.cello-bridge.mxo,@m12-mass,m12-mass,number
-mlys.cello-bridge.mxo,@m2-mass,m2-mass,number
-mlys.cello-bridge.mxo,@name,,symbol
-mlys.cello-bridge.mxo,@s1-sitffness,s1-stiffness,number
-mlys.cello-bridge.mxo,@access-in-initial-position,,"numbers (same as number of inlets, ie arg1)"
-mlys.cello-bridge.mxo,@access-out-initial-position,,"numbers (same as number of outlets, ie arg2)"
-mlys.open-open-tube.mxo,@name,,symbol
-mlys.open-open-tube.mxo,@modes,modes,number
-mlys.open-open-tube.mxo,@pitch,,number
-mlys.open-open-tube.mxo,@pitch-parameter,,enum {length}
-mlys.open-open-tube.mxo,@const-loss,const-loss,number
-mlys.open-open-tube.mxo,@freq-loss,freq-loss,number
-mlys.open-open-tube.mxo,@length,length,number
-mlys.open-open-tube.mxo,@radius0,radius0,number
-mlys.open-open-tube.mxo,@radius1,radius1,number
-mlys.open-open-tube.mxo,@air-elasticity,air-elasticity,number
-mlys.open-open-tube.mxo,@air-density,air-density,number
-mlys.open-open-tube.mxo,@access-in-initial-position,,"numbers (same as number of inlets, ie arg1)"
-mlys.open-open-tube.mxo,@access-out-initial-position,,"numbers (same as number of outlets, ie arg2)"
-mlys.clamped-circ-plate.mxo,@name,,symbol
-mlys.clamped-circ-plate.mxo,@modes,modes,number
-mlys.clamped-circ-plate.mxo,@pitch,,number
-mlys.clamped-circ-plate.mxo,@pitch-parameter,,"enum {radius, thickness, density, young}"
-mlys.clamped-circ-plate.mxo,@const-loss,const-loss,number
-mlys.clamped-circ-plate.mxo,@freq-loss,freq-loss,number
-mlys.clamped-circ-plate.mxo,@radius,radius,number
-mlys.clamped-circ-plate.mxo,@thickness,thickness,number
-mlys.clamped-circ-plate.mxo,@density,density,number
-mlys.clamped-circ-plate.mxo,@young,young,number number (mantissa exponent)
-mlys.clamped-circ-plate.mxo,@poisson,poisson,number
-mlys.clamped-circ-plate.mxo,@access-in-initial-position-r,,"numbers (same as number of inlets, ie arg1)"
-mlys.clamped-circ-plate.mxo,@access-in-initial-position-theta,,"numbers (same as number of inlets, ie arg1)"
-mlys.clamped-circ-plate.mxo,@access-out-initial-position-r,,"numbers (same as number of outlets, ie arg2)"
-mlys.clamped-circ-plate.mxo,@access-out-initial-position-theta,,"numbers (same as number of outlets, ie arg2)"
-mlys.circ-membrane.mxo,@name,,symbol
-mlys.circ-membrane.mxo,@modes,modes,number
-mlys.circ-membrane.mxo,@pitch,,number
-mlys.circ-membrane.mxo,@pitch-parameter,,"enum {radius, tension, mass}"
-mlys.circ-membrane.mxo,@const-loss,const-loss,number
-mlys.circ-membrane.mxo,@freq-loss,freq-loss,number
-mlys.circ-membrane.mxo,@radius,radius,number
-mlys.circ-membrane.mxo,@tension,tension,number
-mlys.circ-membrane.mxo,@surface-density,surface-density,number
-mlys.circ-membrane.mxo,@access-in-initial-position-r,,"numbers (same as number of inlets, ie arg1)"
-mlys.circ-membrane.mxo,@access-in-initial-position-theta,,"numbers (same as number of inlets, ie arg1)"
-mlys.circ-membrane.mxo,@access-out-initial-position-r,,"numbers (same as number of outlets, ie arg2)"
-mlys.circ-membrane.mxo,@access-out-initial-position-theta,,"numbers (same as number of outlets, ie arg2)"
-mlys.tri-hybrid.mxo,@name,,symbol
-mlys.tri-hybrid.mxo,@position,2D-controller,number
-mlys.single-point.mxo,@name,,symbol
-mlys.single-point.mxo,@modes,modes,number
-mlys.single-point.mxo,@freq,freqs,numbers
-mlys.single-point.mxo,@ampl,amps,numbers
-mlys.single-point.mxo,@loss,bws,numbers
-mlys.single-point.mxo,@access-in-initial-position,,"numbers (same as number of inlets, ie arg1)"
-mlys.single-point.mxo,@access-out-initial-position,,"numbers (same as number of outlets, ie arg2)"
-mlys.jet.mxo,@air-pressure,pressure,number
-mlys.jet.mxo,@density,air-density,number
-mlys.jet.mxo,@flue-labium-distance,flue-labium-distance,number
-mlys.jet.mxo,@height,height,number
-mlys.jet.mxo,@labium-position,labium-position,number
-mlys.jet.mxo,@length,length,number
-mlys.jet.mxo,@mouth-surface,mouth-surface,number
-mlys.jet.mxo,@name,,symbol
-mlys.jet.mxo,@sound-celerity,air-speed / celerity,number
-mlys.jet.mxo,@width,width,number
-mlys.bi-two-mass.mxo,@name,,symbol
-mlys.bi-two-mass.mxo,@pitch,,number
-mlys.bi-two-mass.mxo,@pitch-parameter,,"enum {stiffness0, stiffness1, small-mass0, small-mass1, large-mass0, large-mass1}"
-mlys.bi-two-mass.mxo,@const-loss0,const-loss0,number
-mlys.bi-two-mass.mxo,@const-loss1,const-loss1,number
-mlys.bi-two-mass.mxo,@freq-loss0,freq-loss0,number
-mlys.bi-two-mass.mxo,@freq-loss1,freq-loss1,number
-mlys.bi-two-mass.mxo,@large-mass,large-mass,number
-mlys.bi-two-mass.mxo,@small-mass,small-mass,number
-mlys.bi-two-mass.mxo,@stiffness0,stiffness0,number
-mlys.bi-two-mass.mxo,@stiffness1,stiffness1,number
-mlys.bi-two-mass.mxo,@access-in-initial-position,,"numbers (same as number of inlets, ie arg1)"
-mlys.bi-two-mass.mxo,@access-in-type,,"enums {trans0, trans1} (same as number of inlets, ie arg1)"
-mlys.bi-two-mass.mxo,@access-out-initial-position,,"numbers (same as number of outlets, ie arg2)"
-mlys.bi-two-mass.mxo,@access-out-type,,"enums {trans0, trans1} (same as number of outlets, ie arg2)"
-mlys.mono-two-mass.mxo,@name,,symbol
-mlys.mono-two-mass.mxo,@pitch,,number
-mlys.mono-two-mass.mxo,@pitch-parameter,,enum
-mlys.mono-two-mass.mxo,@const-loss0,const-loss0,number
-mlys.mono-two-mass.mxo,@freq-loss0,freq-loss0,number
-mlys.mono-two-mass.mxo,@large-mass,large-mass,number
-mlys.mono-two-mass.mxo,@small-mass,small-mass,number
-mlys.mono-two-mass.mxo,@stiffness0,stiffness0,number
-mlys.mono-two-mass.mxo,@access-in-initial-position,,"numbers (same as number of inlets, ie arg1)"
-mlys.mono-two-mass.mxo,@access-out-initial-position,,"numbers (same as number of outlets, ie arg2)"
-mlys.free-circ-plate.mxo,@name,,symbol
-mlys.free-circ-plate.mxo,@modes,modes,number
-mlys.free-circ-plate.mxo,@pitch,,number
-mlys.free-circ-plate.mxo,@pitch-parameter,,"enum {radius, thickness, density, young}"
-mlys.free-circ-plate.mxo,@const-loss,const-loss,number
-mlys.free-circ-plate.mxo,@freq-loss,freq-loss,number
-mlys.free-circ-plate.mxo,@radius,radius,number
-mlys.free-circ-plate.mxo,@thickness,thickness,number
-mlys.free-circ-plate.mxo,@density,density,number
-mlys.free-circ-plate.mxo,@young,young,number number (mantissa exponent)
-mlys.free-circ-plate.mxo,@poisson,poisson,number
-mlys.free-circ-plate.mxo,@access-in-initial-position-r,,"numbers (same as number of inlets, ie arg1)"
-mlys.free-circ-plate.mxo,@access-in-initial-position-theta,,"numbers (same as number of inlets, ie arg1)"
-mlys.free-circ-plate.mxo,@access-out-initial-position-r,,"numbers (same as number of outlets, ie arg2)"
-mlys.free-circ-plate.mxo,@access-out-initial-position-theta,,"numbers (same as number of outlets, ie arg2)"
-mlys.mix-hybrid.mxo,@name,,symbol
-mlys.mix-hybrid.mxo,@position,controller,number
-mlys.mono-string.mxo,@name,,symbol
-mlys.mono-string.mxo,@modes,modes,number
-mlys.mono-string.mxo,@pitch,,number
-mlys.mono-string.mxo,@pitch-parameter,,"enum {length, tension, density, young}"
-mlys.mono-string.mxo,@const-loss,const-loss,number
-mlys.mono-string.mxo,@freq-loss,freq-loss,number
-mlys.mono-string.mxo,@length,length,number
-mlys.mono-string.mxo,@radius,radius,number
-mlys.mono-string.mxo,@tension,tension,number
-mlys.mono-string.mxo,@density,density,number
-mlys.mono-string.mxo,@young,young,number number (mantissa exponent)
-mlys.mono-string.mxo,@access-in-initial-position,,"numbers (same as number of inlets, ie arg1)"
-mlys.mono-string.mxo,@access-out-initial-position,,"numbers (same as number of outlets, ie arg2)"
-mlys.rect-plate.mxo,@name,,symbol
-mlys.rect-plate.mxo,@modes,modes,number
-mlys.rect-plate.mxo,@pitch,,number
-mlys.rect-plate.mxo,@pitch-parameter,,"enum {size, thickness, density, young}"
-mlys.rect-plate.mxo,@const-loss,const-loss,number
-mlys.rect-plate.mxo,@freq-loss,freq-loss,number
-mlys.rect-plate.mxo,@length0,length0,number
-mlys.rect-plate.mxo,@length1,length1,number
-mlys.rect-plate.mxo,@thickness,thickness,number
-mlys.rect-plate.mxo,@density,density,number
-mlys.rect-plate.mxo,@young,young,number number (mantissa exponent)
-mlys.rect-plate.mxo,@poisson,poisson,number
-mlys.rect-plate.mxo,@access-in-initial-position-x,,"numbers (same as number of inlets, ie arg1)"
-mlys.rect-plate.mxo,@access-in-initial-position-y,,"numbers (same as number of inlets, ie arg1)"
-mlys.rect-plate.mxo,@access-out-initial-position-x,,"numbers (same as number of outlets, ie arg2)"
-mlys.rect-plate.mxo,@access-out-initial-position-y,,"numbers (same as number of outlets, ie arg2)"
-mlys.violin-bridge.mxo,@a-distance,a-distance,number
-mlys.violin-bridge.mxo,@b-distance,b-distance,number
-mlys.violin-bridge.mxo,@central-mass,central-mass,number
-mlys.violin-bridge.mxo,@const-loss,const-loss,number
-mlys.violin-bridge.mxo,@e-distance,e-distance,number
-mlys.violin-bridge.mxo,@feet-mass,feet-mass,number
-mlys.violin-bridge.mxo,@freq-loss,freq-loss,number
-mlys.violin-bridge.mxo,@h-distance,h-distance,number
-mlys.violin-bridge.mxo,@name,,symbol
-mlys.violin-bridge.mxo,@stiffness,stiffness,number
-mlys.violin-bridge.mxo,@access-in-initial-position,,"numbers (same as number of inlets, ie arg1)"
-mlys.violin-bridge.mxo,@access-out-initial-position,,"numbers (same as number of outlets, ie arg2)"
-mlys.bi-string.mxo,@name,,symbol
-mlys.bi-string.mxo,@modes,modes,number
-mlys.bi-string.mxo,@pitch,,number
-mlys.bi-string.mxo,@pitch-parameter,,"enum {length, tension, density, young}"
-mlys.bi-string.mxo,@const-loss,const-loss,number
-mlys.bi-string.mxo,@freq-loss,freq-loss,number
-mlys.bi-string.mxo,@length,length,number
-mlys.bi-string.mxo,@radius,radius,number
-mlys.bi-string.mxo,@tension,tension,number
-mlys.bi-string.mxo,@density,density,number
-mlys.bi-string.mxo,@young,young,number number (mantissa exponent)
-mlys.bi-string.mxo,@access-in-initial-position,,"numbers (same as number of inlets, ie arg1)"
-mlys.bi-string.mxo,@access-in-type,,"enums {trans0, trans1} (same as number of inlets, ie arg1)"
-mlys.bi-string.mxo,@access-out-initial-position,,"numbers (same as number of outlets, ie arg2)"
-mlys.bi-string.mxo,@access-out-type,,"enums {trans0, trans1} (same as number of outlets, ie arg2)"
-mlys.closed-open-tube.mxo,@name,,symbol
-mlys.closed-open-tube.mxo,@modes,modes,number
-mlys.closed-open-tube.mxo,@pitch,,number
-mlys.closed-open-tube.mxo,@pitch-parameter,,enum {length}
-mlys.closed-open-tube.mxo,@const-loss,const-loss,number
-mlys.closed-open-tube.mxo,@freq-loss,freq-loss,number
-mlys.closed-open-tube.mxo,@length,length,number
-mlys.closed-open-tube.mxo,@radius0,radius0,number
-mlys.closed-open-tube.mxo,@radius1,radius1,number
-mlys.closed-open-tube.mxo,@air-elasticity,air-elasticity,number
-mlys.closed-open-tube.mxo,@air-density,air-density,number
-mlys.closed-open-tube.mxo,@access-in-initial-position,,"numbers (same as number of inlets, ie arg1)"
-mlys.closed-open-tube.mxo,@access-out-initial-position,,"numbers (same as number of outlets, ie arg2)"
-mlys.read-from-file.mxo,@access-in-initial-position-1,,"numbers (same as number of inlets, ie arg1)"
-mlys.read-from-file.mxo,@access-in-initial-position-2,,"numbers (same as number of inlets, ie arg1)"
-mlys.read-from-file.mxo,@access-in-initial-position-3,,"numbers (same as number of inlets, ie arg1)"
-mlys.read-from-file.mxo,@access-in-type,,"enums {automatic} (same as number of inlets, ie arg1)"
-mlys.read-from-file.mxo,@access-num-dimentions,,number
-mlys.read-from-file.mxo,@access-out-initial-position-1,,"numbers (same as number of outlets, ie arg2)"
-mlys.read-from-file.mxo,@access-out-initial-position-2,,"numbers (same as number of outlets, ie arg2)"
-mlys.read-from-file.mxo,@access-out-initial-position-3,,"numbers (same as number of outlets, ie arg2)"
-mlys.read-from-file.mxo,@access-out-type,,"enums {automatic} (same as number of outlets, ie arg2)"
-mlys.read-from-file.mxo,@filename,file_name,symbol
-mlys.read-from-file.mxo,@name,,symbol
-mlys.harmonic-oscillator.mxo,@name,,symbol
-mlys.harmonic-oscillator.mxo,@pitch,,number
-mlys.harmonic-oscillator.mxo,@pitch-parameter,,"enum {stiffness, mass}"
-mlys.harmonic-oscillator.mxo,@const-loss,const-loss,number
-mlys.harmonic-oscillator.mxo,@freq-loss,freq-loss,number
-mlys.harmonic-oscillator.mxo,@mass,mass,number
-mlys.harmonic-oscillator.mxo,@stiffness,stiffness,number
-mlys.harmonic-oscillator.mxo,@access-in-initial-position,,"numbers (same as number of inlets, ie arg1)"
-mlys.harmonic-oscillator.mxo,@access-out-initial-position,,"numbers (same as number of outlets, ie arg2)"
-mlys.point-input.mxo,@channel,channel,number
-mlys.point-input.mxo,@gain,scaler,number
-mlys.point-input.mxo,@name,,symbol
-mlys.point-output.mxo,@channel,channel,number
-mlys.point-output.mxo,@gain,scaler,number
-mlys.point-output.mxo,@modes-selection,mode_selection,
-mlys.point-output.mxo,@name,,symbol
-mlys.collector.mxo,@name,,symbol
-mlys.script.mxo,@angle-mode,,enum
-mlys.script.mxo,@multi,,number
-mlys.script.mxo,@precision,,enum
-modalys~.mxo,@precision,,
-mlys.signal.mxo,@name,,symbol
-mlys.signal.mxo,@target-attribute,,
-mlys.lua.mxo,@dimension,,number
-mlys.lua.mxo,@name,,symbol
-mlys.lua.mxo,@pathtofile,,symbol
-mlys.lua.mxo,@script,,
-mlys.lua.mxo,@target-attribute,,
-mlys.lua.mxo,@update,,number
-mlys.dynamic.mxo,@name,,symbol
-mlys.dynamic.mxo,@target-attribute,,
-mlys.dynamic.mxo,@value,,number
-mlys.arithmetic.mxo,@name,,symbol
-mlys.arithmetic.mxo,@target-attribute,,
-mlys.arithmetic.mxo,@operation,operator,"enum {+, -, *, /}"
-mlys.spread.mxo,@dimension,dimention,number
-mlys.spread.mxo,@name,,symbol
-mlys.spread.mxo,@target-attribute,,
-mlys.access-speed.mxo,@name,,symbol
-mlys.sine.mxo,@frequency,frequency,number
-mlys.sine.mxo,@name,,symbol
-mlys.sine.mxo,@phase,phase,number
-mlys.sine.mxo,@target-attribute,,
-mlys.access-force.mxo,@name,,symbol
-mlys.expression.mxo,@expression,expression_string,
-mlys.expression.mxo,@name,,symbol
-mlys.expression.mxo,@target-attribute,,
-mlys.expression.mxo,@update,period,number
-mlys.scale.mxo,@input-max,in_max,number
-mlys.scale.mxo,@input-min,in_min,number
-mlys.scale.mxo,@name,,symbol
-mlys.scale.mxo,@output-max,out_max,number
-mlys.scale.mxo,@output-min,out_min,number
-mlys.scale.mxo,@target-attribute,,
-mlys.access-position.mxo,@name,,symbol
-mlys.phasor.mxo,@frequency,,number
-mlys.phasor.mxo,@name,,symbol
-mlys.phasor.mxo,@target-attribute,,
-mlys.phasor.mxo,@phase,,number
-mlys.mono-fingerboard.mxo,@fingerboard-position,position_ctl,number
-mlys.mono-fingerboard.mxo,@initial-position-in,fgr_posV,number
-mlys.mono-fingerboard.mxo,@initial-position-out,str_posV,number
-mlys.mono-fingerboard.mxo,@name,,symbol
-mlys.mono-fingerboard.mxo,@weight,weight,number
-mlys.bow.mxo,@initial-position-in,bow-posV,number
-mlys.bow.mxo,@initial-position-out,str-posV,number
-mlys.bow.mxo,@name,,symbol
-mlys.bow.mxo,@rosin,4D-ctl,number number number number
-mlys.bow.mxo,@weight,weight,number
-mlys.valve.mxo,@air-density,air-density,number
-mlys.valve.mxo,@air-pressure,breath-pressure,number
-mlys.valve.mxo,@aperture-length,aperture-length,number
-mlys.valve.mxo,@front-angle,front-angle,number
-mlys.valve.mxo,@front-area,front-area,number
-mlys.valve.mxo,@initial-position-in,"acc_pos1, acc_pos2",number number
-mlys.valve.mxo,@name,,symbol
-mlys.valve.mxo,@under-area,under-area,number
-mlys.valve.mxo,@weight,weight,number
-mlys.spring.mxo,@const-loss,const-loss,number
-mlys.spring.mxo,@freq-loss,freq-loss,number
-mlys.spring.mxo,@name,,symbol
-mlys.spring.mxo,@stiffness,stiffness_ctl,number
-mlys.spring.mxo,@weight,weight,number
-mlys.adhere.mxo,@name,,symbol
-mlys.adhere.mxo,@weight,weight,number
-mlys.reed.mxo,@air-density,airDensity,number
-mlys.reed.mxo,@air-pressure,airPressure,number
-mlys.reed.mxo,@area,readArea,number
-mlys.reed.mxo,@initial-position-in,initialPosition,number
-mlys.reed.mxo,@length,apertureLength,number
-mlys.reed.mxo,@name,,symbol
-mlys.reed.mxo,@weight,weight,number
-mlys.strike.mxo,@initial-position-in,init_pos1,number
-mlys.strike.mxo,@initial-position-out,init_pos2,number
-mlys.strike.mxo,@name,,symbol
-mlys.strike.mxo,@weight,weight,number
-mlys.hole.mxo,@name,,symbol
-mlys.hole.mxo,@noise,noise_ctl,number
-mlys.hole.mxo,@radius,radius_ctl,number
-mlys.hole.mxo,@weight,weight,number
-mlys.position.mxo,@name,,symbol
-mlys.position.mxo,@position,position_controller,number
-mlys.position.mxo,@weight,weight,number
-mlys.force.mxo,@force,force_controller,number
-mlys.force.mxo,@name,,symbol
-mlys.force.mxo,@weight,weight,number
-mlys.labium.mxo,@name,,symbol
-mlys.labium.mxo,@noise,noise_ctl,number
-mlys.labium.mxo,@vortex-factor,vortex_factor,number number number
-mlys.labium.mxo,@vortex-transition-time,vortex_transition,number
-mlys.labium.mxo,@weight,weight,number
-mlys.pluck.mxo,@breaking-force,release_ctl,number
-mlys.pluck.mxo,@initial-position-in,init_pos1,number
-mlys.pluck.mxo,@initial-position-out,init_pos2,number
-mlys.pluck.mxo,@name,,symbol
-mlys.pluck.mxo,@weight,weight,number
-mlys.speed.mxo,@name,,symbol
-mlys.speed.mxo,@speed,speed_controller,number
-mlys.speed.mxo,@weight,weight,number
-mlys.normalised-valve.mxo,@air-density,airDensity,number
-mlys.normalised-valve.mxo,@aperture-length,apertureLength,number
-mlys.normalised-valve.mxo,@front-angle,frontAngle,number
-mlys.normalised-valve.mxo,@gamma,breath,number
-mlys.normalised-valve.mxo,@initial-position-in,initialPosition,number
-mlys.normalised-valve.mxo,@name,,symbol
-mlys.normalised-valve.mxo,@weight,weight,number
-mlys.normalised-valve.mxo,@zeta,zeta,number
-mlys.felt.mxo,@F0,F0,number number (mantissa exponent)
-mlys.felt.mxo,@alpha,alpha,number
-mlys.felt.mxo,@epsilon,epsilon,number
-mlys.felt.mxo,@initial-position-in,init-pos1,number
-mlys.felt.mxo,@initial-position-out,init-pos2,number
-mlys.felt.mxo,@name,,symbol
-mlys.felt.mxo,@tau,tau,number
-mlys.felt.mxo,@thickness,thickness,number
-mlys.felt.mxo,@weight,weight,number
+﻿object,attribute,unit,description,paramter,type
+mlys.script.mxo,@angle-mode,,,,enum
+mlys.mono-two-mass.mxo,@pitch-parameter,,physical parameter used for the tuning,,enum
+mlys.script.mxo,@precision,,,,enum
+mlys.arithmetic.mxo,@operation,,operator,operator,"enum {+, -, *, /}"
+mlys.bi-string.mxo,@pitch-parameter,,physical parameter used for the tuning,,"enum {length, tension, density, young}"
+mlys.mono-string.mxo,@pitch-parameter,,physical parameter used for the tuning,,"enum {length, tension, density, young}"
+mlys.closed-closed-tube.mxo,@pitch-parameter,,physical parameter used for the tuning,,enum {length}
+mlys.closed-open-tube.mxo,@pitch-parameter,,physical parameter used for the tuning,,enum {length}
+mlys.open-open-tube.mxo,@pitch-parameter,,physical parameter used for the tuning,,enum {length}
+mlys.circ-membrane.mxo,@pitch-parameter,,physical parameter used for the tuning,,"enum {radius, tension, mass}"
+mlys.clamped-circ-plate.mxo,@pitch-parameter,,physical parameter used for the tuning,,"enum {radius, thickness, density, young}"
+mlys.free-circ-plate.mxo,@pitch-parameter,,physical parameter used for the tuning,,"enum {radius, thickness, density, young}"
+mlys.rect-membrane.mxo,@pitch-parameter,,physical parameter used for the tuning,,"enum {size, tension, mass}"
+mlys.rect-plate.mxo,@pitch-parameter,,physical parameter used for the tuning,,"enum {size, thickness, density, young}"
+mlys.harmonic-oscillator.mxo,@pitch-parameter,,physical parameter used for the tuning,,"enum {stiffness, mass}"
+mlys.bi-two-mass.mxo,@pitch-parameter,,physical parameter used for the tuning,,"enum {stiffness0, stiffness1, small-mass0, small-mass1, large-mass0, large-mass1}"
+mlys.read-from-file.mxo,@access-in-type,,,,"enums {automatic} (same as number of inlets, ie arg1)"
+mlys.read-from-file.mxo,@access-out-type,,,,"enums {automatic} (same as number of outlets, ie arg2)"
+mlys.bi-string.mxo,@access-in-type,,access in dimension (i.e. direction),,"enums {trans0, trans1} (same as number of inlets, ie arg1)"
+mlys.bi-two-mass.mxo,@access-in-type,,access in dimension (i.e. direction),,"enums {trans0, trans1} (same as number of inlets, ie arg1)"
+mlys.bi-string.mxo,@access-out-type,,access out dimension (i.e. direction),,"enums {trans0, trans1} (same as number of outlets, ie arg2)"
+mlys.bi-two-mass.mxo,@access-out-type,,access out dimension (i.e. direction),,"enums {trans0, trans1} (same as number of outlets, ie arg2)"
+mlys.cello-bridge.mxo,@a-distance,m,distance from the center to the edge of the bridge (i.e. half the total bridge width),a-distance,number
+mlys.violin-bridge.mxo,@a-distance,m,distance from the center mass to the edge at the feet,a-distance,number
+mlys.read-from-file.mxo,@access-num-dimentions,,,,number
+mlys.closed-closed-tube.mxo,@air-density,kg/m^3,air density (normally 1.2 on the planet earth at room temperature at sea level),air-density,number
+mlys.closed-open-tube.mxo,@air-density,kg/m^3,air density (normally 1.2 on the planet earth at room temperature at sea level),air-density,number
+mlys.normalised-valve.mxo,@air-density,kg/m^3,air density (normally 1.2 on the planet earth at room temperature at sea level),airDensity,number
+mlys.open-open-tube.mxo,@air-density,kg/m^3,air density (normally 1.2 on the planet earth at room temperature at sea level),air-density,number
+mlys.reed.mxo,@air-density,kg/m^3,air density (normally 1.2 on the planet earth at room temperature at sea level),airDensity,number
+mlys.valve.mxo,@air-density,kg/m^3,air density (normally 1.2 on the planet earth at room temperature at sea level),air-density,number
+mlys.closed-closed-tube.mxo,@air-elasticity,m^2/kg,air elasticity (normally around 7.14e-6 to 7.21e-6 on the planet earth at room temperature at sea level),air-elasticity,number
+mlys.closed-open-tube.mxo,@air-elasticity,m^2/kg,air elasticity (normally around 7.14e-6 to 7.21e-6 on the planet earth at room temperature at sea level),air-elasticity,number
+mlys.open-open-tube.mxo,@air-elasticity,m^2/kg,air elasticity (normally around 7.14e-6 to 7.21e-6 on the planet earth at room temperature at sea level),air-elasticity,number
+mlys.valve.mxo,@air-pressure,N/m^2,breath pressure of the air blowing in the valve,breath-pressure,number
+mlys.jet.mxo,@air-pressure,,pressure,pressure,number
+mlys.reed.mxo,@air-pressure,,breath pressure (the pressure of the air before exciting the reed),airPressure,number
+mlys.felt.mxo,@alpha,,the exponent for the law relating the force to the depression,alpha,number
+mlys.normalised-valve.mxo,@aperture-length,m,the length of the aperture/opening,apertureLength,number
+mlys.valve.mxo,@aperture-length,m,length of the aperture/opening,aperture-length,number
+mlys.reed.mxo,@area,,surface area of the reed,reedArea,number
+mlys.violin-bridge.mxo,@b-distance,m,distance from the center to the interior of the feet,b-distance,number
+mlys.pluck.mxo,@breaking-force,N,release of the pluck,release_ctl,number
+mlys.violin-bridge.mxo,@central-mass,kg,central mass of the bridge,central-mass,number
+mlys.point-input.mxo,@channel,,input channel,channel,number
+mlys.point-output.mxo,@channel,,output channel,channel,number
+mlys.bi-string.mxo,@const-loss,,global damping,const-loss,number
+mlys.cello-bridge.mxo,@const-loss,,global damping,const-loss,number
+mlys.circ-membrane.mxo,@const-loss,,global damping,const-loss,number
+mlys.clamped-circ-plate.mxo,@const-loss,,global damping,const-loss,number
+mlys.closed-closed-tube.mxo,@const-loss,,global damping,const-loss,number
+mlys.closed-open-tube.mxo,@const-loss,,global damping,const-loss,number
+mlys.free-circ-plate.mxo,@const-loss,,global damping,const-loss,number
+mlys.harmonic-oscillator.mxo,@const-loss,,global damping,const-loss,number
+mlys.mono-string.mxo,@const-loss,,global damping,const-loss,number
+mlys.open-open-tube.mxo,@const-loss,,global damping,const-loss,number
+mlys.rect-membrane.mxo,@const-loss,,global damping,const-loss,number
+mlys.rect-plate.mxo,@const-loss,,global damping,const-loss,number
+mlys.spring.mxo,@const-loss,,global damping,const-loss,number
+mlys.violin-bridge.mxo,@const-loss,,global damping,const-loss,number
+mlys.bi-two-mass.mxo,@const-loss0,,global damping of trans0,const-loss0,number
+mlys.mono-two-mass.mxo,@const-loss0,,global damping,const-loss0,number
+mlys.bi-two-mass.mxo,@const-loss1,,global damping of trans1,const-loss1,number
+mlys.cello-bridge.mxo,@d-distance,m,distance from the string to the central mass,d-distance,number
+mlys.cello-bridge.mxo,@d2-stiffness,N/m,stiffness of the central mass spring,d2-stiffness,number
+mlys.cello-bridge.mxo,@d20-distance,m,distance from the central mass to the upper mass,d20-distance,number
+mlys.bi-string.mxo,@density,kg/m^3,density,density,number
+mlys.clamped-circ-plate.mxo,@density,kg/m^3,density,density,number
+mlys.free-circ-plate.mxo,@density,kg/m^3,density,density,number
+mlys.jet.mxo,@density,kg/m^3,medium density of sound radiation in the propagating medium,air-density,number
+mlys.mono-string.mxo,@density,kg/m^3,density,density,number
+mlys.rect-plate.mxo,@density,kg/m^3,density,density,number
+mlys.lua.mxo,@dimension,,,,number
+mlys.spread.mxo,@dimension,,number of dimensions of the output controller,dimention,number
+mlys.violin-bridge.mxo,@e-distance,m,distance from the central mass to the feet masses,e-distance,number
+mlys.felt.mxo,@epsilon,,"the level of the hysteresis, 0 will block it, 1 will enable it fully",epsilon,number
+mlys.violin-bridge.mxo,@feet-mass,kg,masses at the base/feet of the bridge,feet-mass,number
+mlys.mono-fingerboard.mxo,@fingerboard-position,,specifies the position of the virtual fingerboard,position_ctl,number
+mlys.jet.mxo,@flue-labium-distance,,distance from the end of the flue to the labium,flue-labium-distance,number
+mlys.force.mxo,@force,N,the default force,force_controller,number
+mlys.bi-string.mxo,@freq-loss,,high frequencies damping,freq-loss,number
+mlys.cello-bridge.mxo,@freq-loss,,high frequencies damping,freq-loss,number
+mlys.circ-membrane.mxo,@freq-loss,,high frequencies damping,freq-loss,number
+mlys.clamped-circ-plate.mxo,@freq-loss,,high frequencies damping,freq-loss,number
+mlys.closed-closed-tube.mxo,@freq-loss,,high frequencies damping,freq-loss,number
+mlys.closed-open-tube.mxo,@freq-loss,,high frequencies damping,freq-loss,number
+mlys.free-circ-plate.mxo,@freq-loss,,high frequencies damping,freq-loss,number
+mlys.harmonic-oscillator.mxo,@freq-loss,,high frequencies damping,freq-loss,number
+mlys.mono-string.mxo,@freq-loss,,high frequencies damping,freq-loss,number
+mlys.open-open-tube.mxo,@freq-loss,,high frequencies damping,freq-loss,number
+mlys.rect-membrane.mxo,@freq-loss,,high frequencies damping,freq-loss,number
+mlys.rect-plate.mxo,@freq-loss,,high frequencies damping,freq-loss,number
+mlys.spring.mxo,@freq-loss,,high frequencies damping,freq-loss,number
+mlys.violin-bridge.mxo,@freq-loss,,high frequencies damping,freq-loss,number
+mlys.bi-two-mass.mxo,@freq-loss0,,high frequencies damping of trans0,freq-loss0,number
+mlys.mono-two-mass.mxo,@freq-loss0,,high frequencies damping,freq-loss0,number
+mlys.bi-two-mass.mxo,@freq-loss1,,high frequencies damping of trans1,freq-loss1,number
+mlys.phasor.mxo,@frequency,Hz,frequency,,number
+mlys.sine.mxo,@frequency,Hz,frequency,frequency,number
+mlys.valve.mxo,@front-angle,degree,the inclination of the valve,front-angle,number
+mlys.normalised-valve.mxo,@front-angle,,angle of the aperture/opening,frontAngle,number
+mlys.valve.mxo,@front-area,m^2,surface of the front part of the valve,front-area,number
+mlys.point-input.mxo,@gain,,scale the amplitude of the samples,scaler,number
+mlys.point-output.mxo,@gain,,scale the amplitude of the samples,scaler,number
+mlys.normalised-valve.mxo,@gamma,,breath,breath,number
+mlys.violin-bridge.mxo,@h-distance,m,distance from the string to the feet masses,h-distance,number
+mlys.cello-bridge.mxo,@h1-distance,m,distance from the central mass to the feet,h1-distance,number
+mlys.jet.mxo,@height,,height of the flue,height,number
+mlys.cello-bridge.mxo,@i20-distance,m,distance from the center to the upper masses on either side of the bridge,i20-distance,number
+mlys.bow.mxo,@initial-position-in,,initial vertical position of the bowing object's access,bow-posV,number
+mlys.felt.mxo,@initial-position-in,,initial position of the striking object's access,init-pos1,number
+mlys.mono-fingerboard.mxo,@initial-position-in,,initial position of the finger access,fgr_posV,number
+mlys.normalised-valve.mxo,@initial-position-in,,initial height of the valve/reed,initialPosition,number
+mlys.pluck.mxo,@initial-position-in,,initial position of the plucking object's access,init_pos1,number
+mlys.reed.mxo,@initial-position-in,,the initial position of the reed with respect to the tube,initialPosition,number
+mlys.strike.mxo,@initial-position-in,,initial position of the striking object's access,init_pos1,number
+mlys.bow.mxo,@initial-position-out,,initial vertical position of the bowed object's access,str-posV,number
+mlys.felt.mxo,@initial-position-out,,initial position of the striking object's access,init-pos2,number
+mlys.mono-fingerboard.mxo,@initial-position-out,,initial position of the string access,str_posV,number
+mlys.pluck.mxo,@initial-position-out,,initial position of the plucked object's access,init_pos2,number
+mlys.strike.mxo,@initial-position-out,,initial position of the struck object's access,init_pos2,number
+mlys.scale.mxo,@input-max,,upper range of input controller values,in_max,number
+mlys.scale.mxo,@input-min,,lower range of input controller values,in_min,number
+mlys.jet.mxo,@labium-position,,position of the labium with respect to the flue,labium-position,number
+mlys.bi-two-mass.mxo,@large-mass,kg,mass of the larger,large-mass,number
+mlys.mono-two-mass.mxo,@large-mass,kg,mass of the larger,large-mass,number
+mlys.bi-string.mxo,@length,m,length,length,number
+mlys.closed-closed-tube.mxo,@length,m,length,length,number
+mlys.closed-open-tube.mxo,@length,m,length,length,number
+mlys.jet.mxo,@length,m,length of the flue for the jet formation,length,number
+mlys.mono-string.mxo,@length,m,length,length,number
+mlys.open-open-tube.mxo,@length,m,length,length,number
+mlys.reed.mxo,@length,m,width of the reed,apertureLength,number
+mlys.rect-membrane.mxo,@length0,m,length along the x-axis,length0,number
+mlys.rect-plate.mxo,@length0,m,length along the x-axis,length0,number
+mlys.rect-membrane.mxo,@length1,m,length along the y-axis,length1,number
+mlys.rect-plate.mxo,@length1,m,length along the y-axis,length1,number
+mlys.cello-bridge.mxo,@m1-mass,kg,central mass of the bridge,m1-mass,number
+mlys.cello-bridge.mxo,@m12-mass,kg,masses at the base/feet of the bridge,m12-mass,number
+mlys.cello-bridge.mxo,@m2-mass,kg,masses at the upper part of the bridge,m2-mass,number
+mlys.harmonic-oscillator.mxo,@mass,kg,mass,mass,number
+mlys.bi-string.mxo,@modes,,the number of natural modes of vibration,modes,number
+mlys.circ-membrane.mxo,@modes,,the number of natural modes of vibration,modes,number
+mlys.clamped-circ-plate.mxo,@modes,,the number of natural modes of vibration,modes,number
+mlys.closed-closed-tube.mxo,@modes,,the number of natural modes of vibration,modes,number
+mlys.closed-open-tube.mxo,@modes,,the number of natural modes of vibration,modes,number
+mlys.free-circ-plate.mxo,@modes,,the number of natural modes of vibration,modes,number
+mlys.mono-string.mxo,@modes,,the number of natural modes of vibration,modes,number
+mlys.open-open-tube.mxo,@modes,,the number of natural modes of vibration,modes,number
+mlys.rect-membrane.mxo,@modes,,the number of natural modes of vibration,modes,number
+mlys.rect-plate.mxo,@modes,,the number of natural modes of vibration,modes,number
+mlys.single-point.mxo,@modes,,the number of natural modes of vibration,modes,number
+mlys.jet.mxo,@mouth-surface,,this is set to 8e-5 by default and does not need to be changed,mouth-surface,number
+mlys.script.mxo,@multi,,,,number
+mlys.hole.mxo,@noise,,hole noise coefficient,noise_ctl,number
+mlys.labium.mxo,@noise,,breath noise,noise_ctl,number
+mlys.scale.mxo,@output-max,,upper range of output controller values,out_max,number
+mlys.scale.mxo,@output-min,,lower range of output controller values,out_min,number
+mlys.sine.mxo,@phase,degree,initial phase,phase,number
+mlys.phasor.mxo,@phase,,initial phase,,number
+mlys.bi-string.mxo,@pitch,Hz,tuning,,number
+mlys.bi-two-mass.mxo,@pitch,Hz,tuning,,number
+mlys.circ-membrane.mxo,@pitch,Hz,tuning,,number
+mlys.clamped-circ-plate.mxo,@pitch,Hz,tuning,,number
+mlys.closed-closed-tube.mxo,@pitch,Hz,tuning,,number
+mlys.closed-open-tube.mxo,@pitch,Hz,tuning,,number
+mlys.free-circ-plate.mxo,@pitch,Hz,tuning,,number
+mlys.harmonic-oscillator.mxo,@pitch,Hz,tuning,,number
+mlys.mono-string.mxo,@pitch,Hz,tuning,,number
+mlys.mono-two-mass.mxo,@pitch,Hz,tuning,,number
+mlys.open-open-tube.mxo,@pitch,Hz,tuning,,number
+mlys.rect-membrane.mxo,@pitch,Hz,tuning,,number
+mlys.rect-plate.mxo,@pitch,Hz,tuning,,number
+mlys.clamped-circ-plate.mxo,@poisson,,poisson ratio,poisson,number
+mlys.free-circ-plate.mxo,@poisson,,poisson ratio,poisson,number
+mlys.rect-plate.mxo,@poisson,,poisson ratio,poisson,number
+mlys.position.mxo,@position,m,specifying the access position over time,position_controller,number
+mlys.melt-hybrid.mxo,@position,,interpolation of the hybrid,controller,number
+mlys.mix-hybrid.mxo,@position,,interpolation of the hybrid,controller,number
+mlys.bi-string.mxo,@radius,m,radius,radius,number
+mlys.circ-membrane.mxo,@radius,m,radius,radius,number
+mlys.clamped-circ-plate.mxo,@radius,m,radius,radius,number
+mlys.free-circ-plate.mxo,@radius,m,radius,radius,number
+mlys.hole.mxo,@radius,m,radius of hole,radius_ctl,number
+mlys.mono-string.mxo,@radius,m,radius,radius,number
+mlys.closed-closed-tube.mxo,@radius0,m,radius at one end of the tube,radius0,number
+mlys.closed-open-tube.mxo,@radius0,m,radius at one end of the tube,radius0,number
+mlys.open-open-tube.mxo,@radius0,m,radius at one end of the tube,radius0,number
+mlys.closed-closed-tube.mxo,@radius1,m,radius at the other end of the tube,radius1,number
+mlys.closed-open-tube.mxo,@radius1,m,radius at the other end of the tube,radius1,number
+mlys.open-open-tube.mxo,@radius1,m,radius at the other end of the tube,radius1,number
+mlys.cello-bridge.mxo,@s1-sitffness,N/m,stiffness from the central mass to the feet,s1-stiffness,number
+mlys.bi-two-mass.mxo,@small-mass,kg,mass of the smaller,small-mass,number
+mlys.mono-two-mass.mxo,@small-mass,kg,mass of the smaller,small-mass,number
+mlys.jet.mxo,@sound-celerity,m/s,swiftness/speed of the sound in the propagating medium,air-speed / celerity,number
+mlys.speed.mxo,@speed,m/s,speed,speed_controller,number
+mlys.harmonic-oscillator.mxo,@stiffness,N/m,stiffness,stiffness,number
+mlys.spring.mxo,@stiffness,N/m,stiffness of the spring for the harmonic oscillator,stiffness_ctl,number
+mlys.violin-bridge.mxo,@stiffness,N/m,stiffness of the spring between central mass and feet,stiffness,number
+mlys.bi-two-mass.mxo,@stiffness0,N/m,stiffness of trans0,stiffness0,number
+mlys.mono-two-mass.mxo,@stiffness0,N/m,stiffness,stiffness0,number
+mlys.bi-two-mass.mxo,@stiffness1,N/m,stiffness of trans1,stiffness1,number
+mlys.circ-membrane.mxo,@surface-density,kg,surface density,surface-density,number
+mlys.rect-membrane.mxo,@surface-density,kg,surface density,surface-density,number
+mlys.felt.mxo,@tau,,time constant for the hysteresis,tau,number
+mlys.bi-string.mxo,@tension,N,tension,tension,number
+mlys.circ-membrane.mxo,@tension,N,tension,tension,number
+mlys.mono-string.mxo,@tension,N,tension,tension,number
+mlys.rect-membrane.mxo,@tension,N,tension,tension,number
+mlys.clamped-circ-plate.mxo,@thickness,m,thickness,thickness,number
+mlys.felt.mxo,@thickness,m,thickness of the felt,thickness,number
+mlys.free-circ-plate.mxo,@thickness,m,thickness,thickness,number
+mlys.rect-plate.mxo,@thickness,m,thickness,thickness,number
+mlys.valve.mxo,@under-area,m^2,surface of the under part of the valve,under-area,number
+mlys.expression.mxo,@update,second,The update time,period,number
+mlys.lua.mxo,@update,,the update rate in seconds (0 means every sample and -1 automatic),update,number
+mlys.dynamic.mxo,@value,,initial (default) values,initial_values,number
+mlys.labium.mxo,@vortex-transition-time,,vortex transition time,vortex_transition,number
+mlys.jet.mxo,@width,m,width of the flue,width,number
+mlys.normalised-valve.mxo,@zeta,,parameter which influences the timbre,zeta,number
+mlys.adhere.mxo,@weight,,defines the strength of the influence that the connection has on the object it is connected to,weight,"number [0, 1]"
+mlys.bow.mxo,@weight,,defines the strength of the influence that the connection has on the object it is connected to,weight,"number [0, 1]"
+mlys.felt.mxo,@weight,,defines the strength of the influence that the connection has on the object it is connected to,weight,"number [0, 1]"
+mlys.force.mxo,@weight,,defines the strength of the influence that the connection has on the object it is connected to,weight,"number [0, 1]"
+mlys.hole.mxo,@weight,,defines the strength of the influence that the connection has on the object it is connected to,weight,"number [0, 1]"
+mlys.labium.mxo,@weight,,defines the strength of the influence that the connection has on the object it is connected to,weight,"number [0, 1]"
+mlys.mono-fingerboard.mxo,@weight,,defines the strength of the influence that the connection has on the object it is connected to,weight,"number [0, 1]"
+mlys.normalised-valve.mxo,@weight,,defines the strength of the influence that the connection has on the object it is connected to,weight,"number [0, 1]"
+mlys.pluck.mxo,@weight,,defines the strength of the influence that the connection has on the object it is connected to,weight,"number [0, 1]"
+mlys.position.mxo,@weight,,defines the strength of the influence that the connection has on the object it is connected to,weight,"number [0, 1]"
+mlys.reed.mxo,@weight,,defines the strength of the influence that the connection has on the object it is connected to,weight,"number [0, 1]"
+mlys.speed.mxo,@weight,,defines the strength of the influence that the connection has on the object it is connected to,weight,"number [0, 1]"
+mlys.spring.mxo,@weight,,defines the strength of the influence that the connection has on the object it is connected to,weight,"number [0, 1]"
+mlys.strike.mxo,@weight,,defines the strength of the influence that the connection has on the object it is connected to,weight,"number [0, 1]"
+mlys.valve.mxo,@weight,,defines the strength of the influence that the connection has on the object it is connected to,weight,"number [0, 1]"
+mlys.valve.mxo,@initial-position-in,,initial position of the first/second access with respect to the valve,"acc_pos1, acc_pos2",number number
+mlys.felt.mxo,@F0,,first parameter of Stulov's model (corresponds approximately to the strength or hardness of the felt),F0,number number (mantissa exponent)
+mlys.bi-string.mxo,@young,N/m^2,young modulus,young,number number (mantissa exponent)
+mlys.clamped-circ-plate.mxo,@young,N/m^2,young modulus,young,number number (mantissa exponent)
+mlys.free-circ-plate.mxo,@young,N/m^2,young modulus,young,number number (mantissa exponent)
+mlys.mono-string.mxo,@young,N/m^2,young modulus,young,number number (mantissa exponent)
+mlys.rect-plate.mxo,@young,N/m^2,young modulus,young,number number (mantissa exponent)
+mlys.tri-hybrid.mxo,@position,,the interpolation of the hybrid,2D-controller,number number number
+mlys.labium.mxo,@vortex-factor,,vortex factor,vortex_factor,number number number
+mlys.bow.mxo,@rosin,,coefficients which simulate the effect of bow rosin,4D-ctl,number number number number
+mlys.single-point.mxo,@ampl,,a list of amplitudes to be assigned to the amplitude of the unique point in the modes shape vector,amps,numbers
+mlys.single-point.mxo,@freq,Hz,a list of frequencies to be assigned to the modes frequencies,freqs,numbers
+mlys.single-point.mxo,@loss,Hz,a list of bandwidths to be assigned to the modes loss coefficients,bws,numbers
+mlys.closed-open-tube.mxo,@access-in-initial-position,,access in position,,"numbers (same as number of inlets, ie arg1)"
+mlys.harmonic-oscillator.mxo,@access-in-initial-position,,access in position,,"numbers (same as number of inlets, ie arg1)"
+mlys.mono-string.mxo,@access-in-initial-position,,access in position,,"numbers (same as number of inlets, ie arg1)"
+mlys.mono-two-mass.mxo,@access-in-initial-position,,access in position,,"numbers (same as number of inlets, ie arg1)"
+mlys.open-open-tube.mxo,@access-in-initial-position,,access in position,,"numbers (same as number of inlets, ie arg1)"
+mlys.single-point.mxo,@access-in-initial-position,,access in position,,"numbers (same as number of inlets, ie arg1)"
+mlys.violin-bridge.mxo,@access-in-initial-position,,access in position,,"numbers (same as number of inlets, ie arg1)"
+mlys.read-from-file.mxo,@access-in-initial-position-1,,,,"numbers (same as number of inlets, ie arg1)"
+mlys.read-from-file.mxo,@access-in-initial-position-2,,,,"numbers (same as number of inlets, ie arg1)"
+mlys.read-from-file.mxo,@access-in-initial-position-3,,,,"numbers (same as number of inlets, ie arg1)"
+mlys.free-circ-plate.mxo,@access-in-initial-position-r,,distance from center to access in,,"numbers (same as number of inlets, ie arg1)"
+mlys.circ-membrane.mxo,@access-in-initial-position-theta,degree,angle of access in,,"numbers (same as number of inlets, ie arg1)"
+mlys.clamped-circ-plate.mxo,@access-in-initial-position-theta,degree,angle of access in,,"numbers (same as number of inlets, ie arg1)"
+mlys.free-circ-plate.mxo,@access-in-initial-position-theta,,angle of access in,,"numbers (same as number of inlets, ie arg1)"
+mlys.cello-bridge.mxo,@access-out-initial-position,,access out position,,"numbers (same as number of outlets, ie arg2)"
+mlys.closed-closed-tube.mxo,@access-out-initial-position,,access out position,,"numbers (same as number of outlets, ie arg2)"
+mlys.closed-open-tube.mxo,@access-out-initial-position,,access out position,,"numbers (same as number of outlets, ie arg2)"
+mlys.harmonic-oscillator.mxo,@access-out-initial-position,,access out position,,"numbers (same as number of outlets, ie arg2)"
+mlys.mono-string.mxo,@access-out-initial-position,,access out position,,"numbers (same as number of outlets, ie arg2)"
+mlys.mono-two-mass.mxo,@access-out-initial-position,,access out position,,"numbers (same as number of outlets, ie arg2)"
+mlys.open-open-tube.mxo,@access-out-initial-position,,access out position,,"numbers (same as number of outlets, ie arg2)"
+mlys.single-point.mxo,@access-out-initial-position,,access out position,,"numbers (same as number of outlets, ie arg2)"
+mlys.violin-bridge.mxo,@access-out-initial-position,,access out position,,"numbers (same as number of outlets, ie arg2)"
+mlys.read-from-file.mxo,@access-out-initial-position-1,,,,"numbers (same as number of outlets, ie arg2)"
+mlys.read-from-file.mxo,@access-out-initial-position-2,,,,"numbers (same as number of outlets, ie arg2)"
+mlys.read-from-file.mxo,@access-out-initial-position-3,,,,"numbers (same as number of outlets, ie arg2)"
+mlys.clamped-circ-plate.mxo,@access-out-initial-position-r,,distance from center to access out,,"numbers (same as number of outlets, ie arg2)"
+mlys.free-circ-plate.mxo,@access-out-initial-position-r,,distance from center to access out,,"numbers (same as number of outlets, ie arg2)"
+mlys.circ-membrane.mxo,@access-out-initial-position-theta,degree,angle of access out,,"numbers (same as number of outlets, ie arg2)"
+mlys.clamped-circ-plate.mxo,@access-out-initial-position-theta,degree,angle of access out,,"numbers (same as number of outlets, ie arg2)"
+mlys.free-circ-plate.mxo,@access-out-initial-position-theta,,angle of access out,,"numbers (same as number of outlets, ie arg2)"
+mlys.bi-string.mxo,@access-in-initial-position,,access in position,,"numbers [0, 1] (same as number of inlets, ie arg1)"
+mlys.bi-two-mass.mxo,@access-in-initial-position,,access in position,,"numbers [0, 1] (same as number of inlets, ie arg1)"
+mlys.cello-bridge.mxo,@access-in-initial-position,,access in position,,"numbers [0, 1] (same as number of inlets, ie arg1)"
+mlys.closed-closed-tube.mxo,@access-in-initial-position,,access in position,,"numbers [0, 1] (same as number of inlets, ie arg1)"
+mlys.circ-membrane.mxo,@access-in-initial-position-r,,distance from center to access in,,"numbers [0, 1] (same as number of inlets, ie arg1)"
+mlys.clamped-circ-plate.mxo,@access-in-initial-position-r,,distance from center to access in,,"numbers [0, 1] (same as number of inlets, ie arg1)"
+mlys.rect-membrane.mxo,@access-in-initial-position-x,,x-coodinate of access in,,"numbers [0, 1] (same as number of inlets, ie arg1)"
+mlys.rect-plate.mxo,@access-in-initial-position-x,,x-coodinate of access in,,"numbers [0, 1] (same as number of inlets, ie arg1)"
+mlys.rect-membrane.mxo,@access-in-initial-position-y,,y-coodinate of access in,,"numbers [0, 1] (same as number of inlets, ie arg1)"
+mlys.rect-plate.mxo,@access-in-initial-position-y,,y-coodinate of access in,,"numbers [0, 1] (same as number of inlets, ie arg1)"
+mlys.bi-string.mxo,@access-out-initial-position,,access out position,,"numbers [0, 1] (same as number of outlets, ie arg2)"
+mlys.bi-two-mass.mxo,@access-out-initial-position,,access out position,,"numbers [0, 1] (same as number of outlets, ie arg2)"
+mlys.circ-membrane.mxo,@access-out-initial-position-r,,distance from center to access out,,"numbers [0, 1] (same as number of outlets, ie arg2)"
+mlys.rect-membrane.mxo,@access-out-initial-position-x,,x-coodinate of access out,,"numbers [0, 1] (same as number of outlets, ie arg2)"
+mlys.rect-plate.mxo,@access-out-initial-position-x,,x-coodinate of access out,,"numbers [0, 1] (same as number of outlets, ie arg2)"
+mlys.rect-membrane.mxo,@access-out-initial-position-y,,y-coodinate of access out,,"numbers [0, 1] (same as number of outlets, ie arg2)"
+mlys.rect-plate.mxo,@access-out-initial-position-y,,y-coodinate of access out,,"numbers [0, 1] (same as number of outlets, ie arg2)"
+mlys.read-from-file.mxo,@filename,,,file_name,string
+mlys.access-force.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.access-position.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.access-speed.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.adhere.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.arithmetic.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.bi-string.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.bi-two-mass.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.bow.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.cello-bridge.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.circ-membrane.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.clamped-circ-plate.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.closed-closed-tube.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.closed-open-tube.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.collector.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.dynamic.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.expression.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.felt.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.force.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.free-circ-plate.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.harmonic-oscillator.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.hole.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.jet.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.labium.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.lua.mxo,@name,,used when sending control messages to modalys~,name,string
+mlys.melt-hybrid.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.mix-hybrid.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.mono-fingerboard.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.mono-string.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.mono-two-mass.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.normalised-valve.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.open-open-tube.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.phasor.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.pluck.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.point-input.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.point-output.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.position.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.read-from-file.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.rect-membrane.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.rect-plate.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.reed.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.scale.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.signal.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.sine.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.single-point.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.speed.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.spread.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.spring.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.strike.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.tri-hybrid.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.valve.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.violin-bridge.mxo,@name,,used when sending control messages to modalys~,,string
+mlys.lua.mxo,@pathtofile,,the path to the external Lua text file,pathtofile,string
+mlys.arithmetic.mxo,@target-attribute,,can be used to control a specific attribute of a connected object,,string
+mlys.dynamic.mxo,@target-attribute,,can be used to control a specific attribute of a connected object,,string
+mlys.expression.mxo,@target-attribute,,can be used to control a specific attribute of a connected object,,string
+mlys.lua.mxo,@target-attribute,,can be used to control a specific attribute of a connected object,target-attribute,string
+mlys.phasor.mxo,@target-attribute,,can be used to control a specific attribute of a connected object,,string
+mlys.scale.mxo,@target-attribute,,can be used to control a specific attribute of a connected object,,string
+mlys.signal.mxo,@target-attribute,,can be used to control a specific attribute of a connected object,,string
+mlys.sine.mxo,@target-attribute,,can be used to control a specific attribute of a connected object,,string
+mlys.spread.mxo,@target-attribute,,can be used to control a specific attribute of a connected object,,string
+mlys.expression.mxo,@expression,,a text string representing the expression to be evaluated,expression_string,
+mlys.point-output.mxo,@modes-selection,,"if provided, it is used to can select an individual mode (or modes) to output",mode_selection,
+modalys~.mxo,@precision,,,,
+mlys.lua.mxo,@script,,,,
